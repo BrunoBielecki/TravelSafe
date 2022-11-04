@@ -1,0 +1,75 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: "título título título" "logo nav icono";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
+
+.grid__título {
+  grid-area: título;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid__título--a {
+  text-decoration: none;
+}
+
+.grid__título--h1 {
+  font-size: 4rem;
+}
+
+.grid__logo {
+  grid-area: logo;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.grid__logo--a {
+  text-decoration: none;
+}
+
+.grid__nav {
+  grid-area: nav;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.grid__nav--ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 3%;
+}
+
+.grid__nav--li {
+  list-style-type: none;
+}
+
+.grid__nav--a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.grid__icono {
+  grid-area: icono;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.grid__icono--a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
