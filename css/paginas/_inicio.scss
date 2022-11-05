@@ -1,69 +1,89 @@
-.grid{
-    display: grid;
-    grid-template-areas: "título título título"
-                         "logo nav icono";
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr;
+/*HEADER*/
+
+header{
+    background-color: #012326;
 }
 
-.grid__título{
+.grid{
+    display: grid;
+    grid-template-areas: "logo título icono";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.logo{
+    grid-area: logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__a{
+        text-decoration: none;
+    }
+
+    &__img{
+        width: 30%;
+        padding: 5%;
+    }
+}
+
+.título{
     grid-area: título;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &__a{
+        text-decoration: none;
+    }
+
+    &__h1{
+        font-size: 6rem;
+    }
 }
 
-.grid__título--a{
-    text-decoration: none;
-}
-
-.grid__título--h1{
-    font-size: 4rem;
-}
-
-.grid__logo{
-    grid-area: logo;
+.icono{
+    grid-area: icono;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: flex-end;
+    align-items: center;
+
+    &__a{
+        text-decoration: none;
+    }
+
+    &__img{
+        padding-left: 65%;
+        width: 90%;
+    }
 }
 
-.grid__logo--a{
-    text-decoration: none;
-}
-
-.grid__nav{
-    grid-area: nav;
+.navar{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-}
-
-.grid__nav--ul{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
     gap: 3%;
+    padding: 2%;
+
+
+    &__li{
+        font-size: 2rem;
+        list-style-type: none;
+    }
+
+    &__a{
+        text-decoration: none;
+    }
 }
 
-.grid__nav--li{
-    list-style-type: none;
+/*MAIN*/
+
+main{
+    background-color: #0396A6;
 }
 
-.grid__nav--a{
-    text-decoration: none;
-    font-size: 1rem;
-}
+/*FOOTER*/
 
-.grid__icono{
-    grid-area: icono;
-    display: flex;
-    justify-content:flex-end;
-    align-items: flex-start;
-}
-
-.grid__icono--a{
-    text-decoration: none;
+footer{
+    background-color: #0396A6;
 }
