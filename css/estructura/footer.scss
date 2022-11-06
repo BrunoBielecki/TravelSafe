@@ -1,0 +1,76 @@
+/*FOOTER*/
+
+footer{
+    background-color: $color2;
+}
+
+.grid__footer{
+    display: grid;
+    grid-template-areas: "redes copy local";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.grid__redes{
+    grid-area: redes;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3%;
+}
+
+.título__redes{
+    font-size: 2rem;
+    color: $color1;
+}
+
+.redes{
+
+    &__a{
+        text-decoration: none;
+    }
+
+    &__img{
+        width: 11%;
+        padding: 1%;
+    }
+}
+
+.grid__derechos{
+    grid-area: copy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.derechos__p{
+    font-size: 1.5rem;
+    color: $color1;
+}
+
+.grid__local{
+    grid-area: local;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 3%;
+}
+
+.título__local{
+    width: 100%;
+    color: $color1;
+    font-size: 2rem;
+    text-align: end;
+    padding-right: 12%;
+}
+
+.local{
+
+    &__p{
+        font-size: 1.5rem;
+        text-align: center;
+        color: $color1;
+    }
+}

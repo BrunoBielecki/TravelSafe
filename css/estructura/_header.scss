@@ -1,7 +1,7 @@
 /*HEADER*/
 
 header{
-    background-color: #012326;
+    background-color: $color2;
 }
 
 .grid{
@@ -39,6 +39,7 @@ header{
 
     &__h1{
         font-size: 6rem;
+        color: $color1;
     }
 }
 
@@ -73,17 +74,9 @@ header{
 
     &__a{
         text-decoration: none;
+        color: $color1;
     }
 }
 
-/*MAIN*/
 
-main{
-    background-color: #0396A6;
-}
 
-/*FOOTER*/
-
-footer{
-    background-color: #0396A6;
-}
