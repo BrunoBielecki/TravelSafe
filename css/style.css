@@ -83,6 +83,36 @@ main {
   background-color: #012326;
 }
 
+.ofertas__h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 2%;
+}
+.ofertas__galeria {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 2%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ofertas__card {
+  background-color: #F29F05;
+  border-radius: 5%;
+  border: solid 5px #BF4904;
+}
+.ofertas__card--img {
+  border-radius: 5%;
+  width: 300px;
+  height: 200px;
+}
+.ofertas__card--p {
+  text-align: center;
+  padding: 5%;
+  font-size: 2rem;
+  color: #0396A6;
+}
+
 /*INICIO*/
 footer {
   background-color: #012326;
