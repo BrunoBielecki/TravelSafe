@@ -40,45 +40,53 @@
                 <fieldset>
                     <legend> Busca tu destino </legend>
                     <section>
-                        <label for="origen"> Origen </label>
-                        <input type="text" id="origen">
+                        <section>
+                            <label for="origen"> Origen </label>
+                            <input type="text" id="origen">
+                        </section>
+                        <section>
+                            <label for="destino"> Destino </label>
+                            <input type="text" id="destino">
+                        </section>
                     </section>
-                    <section>
-                        <label for="destino"> Destino </label>
-                        <input type="text" id="destino">
+                    <section >
+                        <section>
+                            <label for="e_vuelo"> Estilo de vuelo </label>
+                            <select name="estilo_de_vuelo" id="e_vuelo">
+                                <option value="económico"> Económico </option>
+                                <option value="privado"> Privado </option>
+                            </select>
+                        </section>
+                        <section>
+                            <label for="pas"> Pasajeros </label>
+                            <select name="pasajeros" id="pas">
+                                <option value="1"> 1 </option>
+                                <option value="2"> 2 </option>
+                                <option value="3"> 3 </option>
+                                <option value="4"> 4 </option>
+                                <option value="5"> 5 </option>
+                            </select>
+                        </section>
                     </section>
-                    <section>
-                        <label for="e_vuelo"> Estilo de vuelo </label>
-                        <select name="estilo_de_vuelo" id="e_vuelo">
-                            <option value="económico"> Económico </option>
-                            <option value="privado"> Privado </option>
-                        </select>
+                    <section >
+                        <section>
+                            <label for="f_salida"> Fecha de salida </label>
+                            <input type="month" name="" id="f_salida">
+                        </section>
+                        <section>
+                            <label for="f_vuelta"> Fecha de vuelta </label>
+                            <input type="month" name="" id="f_vuelta">
+                        </section>
                     </section>
-                    <section>
-                        <label for="pas"> Pasajeros </label>
-                        <select name="pasajeros" id="pas">
-                            <option value="1"> 1 </option>
-                            <option value="2"> 2 </option>
-                            <option value="3"> 3 </option>
-                            <option value="4"> 4 </option>
-                            <option value="5"> 5 </option>
-                        </select>
-                    </section>
-                    <section>
-                        <label for="f_salida"> Fecha de salida </label>
-                        <input type="month" name="" id="f_salida">
-                    </section>
-                    <section>
-                        <label for="f_vuelta"> Fecha de vuelta </label>
-                        <input type="month" name="" id="f_vuelta">
-                    </section>
-                    <section>
-                        <label for="viajes_ida"> Ida </label>
-                        <input type="radio" name="" value="ida" id="viajes_ida">
-                    </section>
-                    <section>
-                        <label for="viajes_iv"> Ida y Vuelta </label>
-                        <input type="radio" name="" value="ida y vuelta" id="viajes_iv">
+                    <section >
+                        <section>
+                            <label for="viajes_ida"> Ida </label>
+                            <input type="radio" name="" value="ida" id="viajes_ida">
+                        </section>
+                        <section>
+                            <label for="viajes_iv"> Ida y Vuelta </label>
+                            <input type="radio" name="" value="ida y vuelta" id="viajes_iv">
+                        </section>
                     </section>
                     <section>
                         <input type="button" value="Buscar">

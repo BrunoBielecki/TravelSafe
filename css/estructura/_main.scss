@@ -3,7 +3,6 @@
 main{
     background-color: $color2;
 }
-
 .ofertas {
 
     &__h2{
@@ -40,4 +39,46 @@ main{
         color: $color1;
     }
 }
+
+/*VIAJES*/
+
+.destino{
+
+    &__h2{
+        font-size: 3rem;
+        text-align: center;
+        padding: 2%;
+        color: $color1;
+    }
+
+    &__galeria{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 2%;
+    }
+
+    &__card{
+        background-color: $color3;
+        border-radius: 5%;
+        border: solid 5px $color5;
+        margin: 2%;
+    }
+
+    &__card--img{
+        border-radius: 5%;
+        width: 300px;
+        height: 200px;
+    }
+
+    &__card--p{
+        text-align: center;
+        padding: 5%;
+        font-size: 2rem;
+        color: $color1;
+    }
+}
+
 
