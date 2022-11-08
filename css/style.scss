@@ -1,7 +1,5 @@
 @import "./utilidades/colores";
 @import "./reset/reset.scss";
-@import "./paginas/inicio";
-@import "./paginas/viajes";
-@import "./paginas/galeria.scss";
-@import "./paginas/contactos.scss";
-@import "./paginas/acerca_de_nosotros.scss";
+@import "./estructura/header";
+@import "./estructura/main";
+@import "./estructura/footer";

@@ -7,9 +7,8 @@
     <meta:keywords></meta:keywords>
     <meta:description></meta:description>
     <title> TravelSafe / Inicio </title>
-    
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./elementos/logos/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./elementos/logos/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 <body>
@@ -22,7 +21,7 @@
                 <a class="título__a" href="./index.html"> <h1 class="título__h1"> Travel Safe </h1></a>
             </div>
             <div class="icono">
-                <a class="icono__a" href=""> <img class="icono__img" src="./elementos/logos/icono.png" alt=" icono de usuario"> </a>
+                <a class="icono__a" href="./pages/user.html"> <img class="icono__img" src="./elementos/logos/icono.png" alt=" icono de usuario"> </a>
             </div>
         </div>
         <nav>
@@ -36,9 +35,81 @@
         </nav>
     </header>
     <main>
-        <h2> Ofertas </h2>
         <section>
-            
+            <form>
+                <fieldset>
+                    <legend> Busca tu destino </legend>
+                    <section>
+                        <label for=""> Origen </label>
+                        <input type="text">
+                    </section>
+                    <section>
+                        <label for="destino"> Destino </label>
+                        <input type="text">
+                    </section>
+                    <section>
+                        <label for=""> Estilo de vuelo </label>
+                        <select name="estilo_de_vuelo">
+                            <option value="económico"> Económico </option>
+                            <option value="privado"> Privado </option>
+                        </select>
+                    </section>
+                    <section>
+                        <label for=""> Pasajeros </label>
+                        <select name="pasajeros">
+                            <option value="1"> 1 </option>
+                            <option value="2"> 2 </option>
+                            <option value="3"> 3 </option>
+                            <option value="4"> 4 </option>
+                            <option value="5"> 5 </option>
+                        </select>
+                    </section>
+                    <section>
+                        <label for=""> Fecha de salida </label>
+                        <input type="month">
+                    </section>
+                    <section>
+                        <label for=""> Fecha de vuelta </label>
+                        <input type="month">
+                    </section>
+                    <section>
+                        <label for="viajes_ida"> Ida </label>
+                        <input type="radio" name="viaje" value="ida" id="viajes_ida">
+                    </section>
+                    <section>
+                        <label for="viajes_iv"> Ida y Vuelta </label>
+                        <input type="radio" name="viaje" value="ida y vuelta" id="viajes_iv">
+                    </section>
+                    <section>
+                        <input type="button" value="Buscar">
+                    </section>
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <h2> Ofertas de la Semana </h2>
+            <section>
+                <section>
+                    <img src="./elementos/imagenes/ofertas_de_la_semana_00.jpg" alt="">
+                    <p> Salta </p>
+                </section>
+                <section>
+                    <img src="./elementos/imagenes/ofertas_de_la_semana_01.jpg" alt="">
+                    <p> Misiones </p>
+                </section>
+                <section>
+                    <img src="./elementos/imagenes/ofertas_de_la_semana_02.jpg" alt="">
+                    <p> Mendoza </p>
+                </section>
+                <section>
+                    <img src="./elementos/imagenes/ofertas_de_la_semana_03.jpg" alt="">
+                    <p> Entre Ríos </p>
+                </section>
+                <section>
+                    <img src="./elementos/imagenes/ofertas_de_la_semana_04.jpg" alt="">
+                    <p> Río Negro </p>
+                </section>
+            </section>
         </section>
     </main>
     <footer>

@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/*HEADER*/
+/*INICIO*/
 header {
   background-color: #012326;
 }
@@ -70,17 +70,20 @@ header {
   font-size: 2rem;
   list-style-type: none;
 }
+.navar__li:hover {
+  background-color: #F27405;
+}
 .navar__a {
   text-decoration: none;
   color: #0396A6;
 }
 
-/*MAIN*/
+/*INICIO*/
 main {
   background-color: #012326;
 }
 
-/*FOOTER*/
+/*INICIO*/
 footer {
   background-color: #012326;
 }
