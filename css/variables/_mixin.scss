@@ -1,0 +1,6 @@
+@mixin size ($tamaño, $alinear, $marcosub, $color_del_título) {
+    font-size: $tamaño;
+    text-align: $alinear;
+    padding: $marcosub;
+    color: $color_del_título;
+}

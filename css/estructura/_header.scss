@@ -1,7 +1,22 @@
-/*INICIO*/
-
 header{
     background-color: $color2;
+}
+
+.ruta_de_exploración{
+
+    &__ol{
+        display: flex;
+        gap: 1%;
+    }
+
+    &__li{
+        font-size: 1.5rem;
+        list-style-type: none;
+    }
+
+    &__a{
+        text-decoration: none;
+    }
 }
 
 .grid{

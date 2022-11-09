@@ -5,9 +5,20 @@
   box-sizing: border-box;
 }
 
-/*INICIO*/
 header {
   background-color: #012326;
+}
+
+.ruta_de_exploración__ol {
+  display: flex;
+  gap: 1%;
+}
+.ruta_de_exploración__li {
+  font-size: 1.5rem;
+  list-style-type: none;
+}
+.ruta_de_exploración__a {
+  text-decoration: none;
 }
 
 .grid {
@@ -144,6 +155,39 @@ main {
   padding: 5%;
   font-size: 2rem;
   color: #0396A6;
+}
+
+/*ACERCA DE NOSOTROS*/
+.historia__h2 {
+  font-size: 4rem;
+  text-align: center;
+  padding: 3%;
+  color: #0396A6;
+}
+.historia__p {
+  color: #0396A6;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 4%;
+  border: solid 5px #F29F05;
+}
+
+/*TERMINOS Y CONDICIONES*/
+.terminos_condiciones__h2 {
+  font-size: 4rem;
+  text-align: center;
+  padding: 3%;
+  color: #0396A6;
+}
+.terminos_condiciones__p {
+  color: #0396A6;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 4%;
+  border: solid 5px #F29F05;
+  border-radius: 5%;
 }
 
 /*INICIO*/
