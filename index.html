@@ -13,16 +13,11 @@
 </head>
 <body>
     <header>
-        <div class="ruta_de_exploración">
-            <ol class="ruta_de_exploración__ol">
-                <li class="ruta_de_exploración__li"><a class="ruta_de_exploración__a" href="./index.html"> Inicio > </a></li>
-            </ol>
-        </div>
         <div class="grid">
             <div class="logo">
                 <a class="logo__a" href="./index.html"> <img class="logo__img" src="./elementos/logos/logo.png" alt=" logo de la empresa "></a>
             </div>
-            <div class="título">
+            <div class="título wow jackInTheBox">
                 <a class="título__a" href="./index.html"> <h1 class="título__h1"> Travel Safe </h1></a>
             </div>
             <div class="icono">
@@ -33,7 +28,7 @@
             <ul class="navar">
                 <li class="navar__li"><a class="navar__a" href="./index.html"> Inicio </a></li>
                 <li class="navar__li"><a class="navar__a" href="./pages/viajes.html"> Viajes </a></li>
-                <li class="navar__li"><a class="navar__a" href="./pages/galeria.html"> Galeria </a></li>
+                <li class="navar__li"><a class="navar__a" href="./pages/colectivos.html"> Colectivos </a></li>
                 <li class="navar__li"><a class="navar__a" href="./pages/contactos.html"> Contactos </a></li>
                 <li class="navar__li"><a class="navar__a" href="./pages/acerca_de_nosotros.html"> Acerca de Nosotros</a></li>
             </ul>
@@ -41,60 +36,52 @@
     </header>
     <main>
         <section>
-            <form>
+            <form class="form_buscar_vuelo">
                 <fieldset>
-                    <legend> Busca tu destino </legend>
-                    <section>
-                        <section>
-                            <label for="origen"> Origen </label>
-                            <input type="text" id="origen">
-                        </section>
-                        <section>
-                            <label for="destino"> Destino </label>
-                            <input type="text" id="destino">
-                        </section>
+                    <legend class="form_buscar_vuelo__título"> Busca tu destino </legend>
+                    <section class="form_buscar_vuelo__style"> 
+                        <label class="form_buscar_vuelo__indicador" for="origen"> Origen </label>
+                        <input class="form_buscar_vuelo__selda" type="text" id="origen" placeholder="origen">
                     </section>
-                    <section >
-                        <section>
-                            <label for="e_vuelo"> Estilo de vuelo </label>
-                            <select name="estilo_de_vuelo" id="e_vuelo">
-                                <option value="económico"> Económico </option>
-                                <option value="privado"> Privado </option>
-                            </select>
-                        </section>
-                        <section>
-                            <label for="pas"> Pasajeros </label>
-                            <select name="pasajeros" id="pas">
-                                <option value="1"> 1 </option>
-                                <option value="2"> 2 </option>
-                                <option value="3"> 3 </option>
-                                <option value="4"> 4 </option>
-                                <option value="5"> 5 </option>
-                            </select>
-                        </section>
+                    <section class="form_buscar_vuelo__style">
+                        <label class="form_buscar_vuelo__indicador" for="destino"> Destino </label>
+                        <input class="form_buscar_vuelo__selda" type="text" id="destino" placeholder="destino">
                     </section>
-                    <section >
-                        <section>
-                            <label for="f_salida"> Fecha de salida </label>
-                            <input type="month" name="" id="f_salida">
-                        </section>
-                        <section>
-                            <label for="f_vuelta"> Fecha de vuelta </label>
-                            <input type="month" name="" id="f_vuelta">
-                        </section>
+                    <section class="form_buscar_vuelo__style">
+                        <label class="form_buscar_vuelo__indicador" for="e_vuelo"> Estilo de vuelo </label>
+                        <select class="form_buscar_vuelo__selda" name="estilo_de_vuelo" id="e_vuelo">
+                            <option value="económico"> Económico </option>
+                            <option value="privado"> Privado </option>
+                        </select>
                     </section>
-                    <section >
-                        <section>
-                            <label for="viajes_ida"> Ida </label>
-                            <input type="radio" name="" value="ida" id="viajes_ida">
-                        </section>
-                        <section>
-                            <label for="viajes_iv"> Ida y Vuelta </label>
-                            <input type="radio" name="" value="ida y vuelta" id="viajes_iv">
-                        </section>
+                    <section class="form_buscar_vuelo__style">
+                        <label class="form_buscar_vuelo__indicador" for="pas"> Pasajeros </label>
+                        <select class="form_buscar_vuelo__selda" name="pasajeros" id="pas">
+                            <option value="1"> 1 </option>
+                            <option value="2"> 2 </option>
+                            <option value="3"> 3 </option>
+                            <option value="4"> 4 </option>
+                            <option value="5"> 5 </option>
+                        </select>
                     </section>
-                    <section>
-                        <input type="button" value="Buscar">
+                    <section class="form_buscar_vuelo__style">
+                        <label class="form_buscar_vuelo__indicador" for="f_salida"> Fecha de salida </label>
+                        <input class="form_buscar_vuelo__selda" type="month" name="" id="f_salida">
+                    </section>
+                    <section class="form_buscar_vuelo__style">
+                        <label class="form_buscar_vuelo__indicador" for="f_vuelta"> Fecha de vuelta </label>
+                        <input class="form_buscar_vuelo__selda" type="month" name="" id="f_vuelta">
+                    </section>
+                    <section class="form_buscar_vuelo__style">
+                        <label class="form_buscar_vuelo__indicador" for="viajes_ida"> Ida </label>
+                        <input class="form_buscar_vuelo__selda" type="radio" value="ida" id="viajes_ida">
+                    </section>
+                    <section class="form_buscar_vuelo__style">
+                        <label class="form_buscar_vuelo__indicador" for="viajes_iv"> Ida y Vuelta </label>
+                        <input class="form_buscar_vuelo__selda" type="radio"  value="ida y vuelta" id="viajes_iv">
+                    </section>
+                    <section class="form_buscar_vuelo__style">
+                        <input class="form_buscar_vuelo__btn" type="button" value="Buscar">
                     </section>
                 </fieldset>
             </form>

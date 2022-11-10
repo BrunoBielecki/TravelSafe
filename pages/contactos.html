@@ -9,19 +9,15 @@
     <title>TravelSafe / Contactos</title>
     <link rel="shortcut icon" href="../elementos/logos/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 <body>
     <header>
-        <div class="ruta_de_exploración">
-            <ol class="ruta_de_exploración__ol">
-                <li class="ruta_de_exploración__li"><a class="ruta_de_exploración__a" href="./contactos.html"> Contactos > </a></li>
-            </ol>
-        </div>
         <div class="grid">
             <div class="logo">
                 <a class="logo__a" href="../index.html"> <img class="logo__img" src="../elementos/logos/logo.png" alt=" logo de la empresa "></a>
             </div>
-            <div class="título">
+            <div class="título wow jackInTheBox">
                 <a class="título__a" href="../index.html"> <h1 class="título__h1"> Travel Safe </h1></a>
             </div>
             <div class="icono">
@@ -32,7 +28,7 @@
             <ul class="navar">
                 <li class="navar__li"><a class="navar__a" href="../index.html"> Inicio </a></li>
                 <li class="navar__li"><a class="navar__a" href="./viajes.html"> Viajes </a></li>
-                <li class="navar__li"><a class="navar__a" href="./galeria.html"> Galeria </a></li>
+                <li class="navar__li"><a class="navar__a" href="./colectivos.html"> Colectivos </a></li>
                 <li class="navar__li"><a class="navar__a" href="./contactos.html"> Contactos </a></li>
                 <li class="navar__li"><a class="navar__a" href="./acerca_de_nosotros.html"> Acerca de Nosotros</a></li>
             </ul>
@@ -40,39 +36,38 @@
     </header>
     <main>
         <section>
-            <form action="">
+            <form class="form_contactanos">
                 <fieldset>
-                    <legend></legend>
-                    <section>
-                        <label for="nombre"> Nombre/s </label>
-                        <input type="text" id="nombre">
+                    <legend class="form_contactanos__título"> Consultas </legend>
+                    <section class="form_contactanos__style">
+                        <label class="form_contactanos__indicador" for="nombre"> Nombre/s </label>
+                        <input class="form_contactanos__selda" type="text" id="nombre" placeholder="nombre/s">
                     </section>
-                    <section>
-                        <label for="apellido"> Apellido/s </label>
-                        <input type="text" id="apellido">
+                    <section class="form_contactanos__style">
+                        <label class="form_contactanos__indicador" for="apellido"> Apellido/s </label>
+                        <input class="form_contactanos__selda" type="text" id="apellido" placeholder="apellido">
                     </section>
-                    <section>
-                        <label for="email"> E-mail </label>
-                        <input type="email" id="email">
+                    <section class="form_contactanos__style">
+                        <label class="form_contactanos__indicador" for="email"> E-mail </label>
+                        <input class="form_contactanos__selda" type="email" id="email" placeholder="e-mail">
                     </section>
-                    <section>
-                        <label for="cuentanos"> Cuentanos lo que sucede </label>
-                        <textarea name="" id="cuentanos" cols="30" rows="10"></textarea>
+                    <section class="form_contactanos__style">
+                        <label class="form_contactanos__indicador" for="cuentanos"> Cuentanos lo que sucede </label>
+                        <textarea class="form_contactanos__selda" name="" id="cuentanos" cols="30" rows="10" placeholder="cuentanos lo que sucede"></textarea>
                     </section>
-                    <section>
-                        <input type="reset" value="restablecer">
-                    </section>
-                    <section>
-                        <input type="submit" value="enviar">
+                    <section class="form_contactanos__botones">
+                        <section class="form_contactanos__style">
+                            <input class="form_contactanos__btn" type="reset" value="Restablecer">
+                        </section>
+                        <section class="form_contactanos__style">
+                            <input class="form_contactanos__btn" type="submit" value="Enviar">
+                        </section>
                     </section>
                 </fieldset>
             </form>
         </section>
-        <section>
-            <p> Si necesitas realizar una consulta urgente podes comunicarte con nosotros a nuestro e-mail</p>
-            <a href="">
-                <p>brunobielecki16@gmail.com</p>
-            </a>
+        <section class="consulta">
+            <p class="consulta__p"> Si necesitas realizar una consulta urgente podes comunicarte con nosotros por medio de nuestro e-mail <a class="consulta__a" href=""> brunobielecki16@gmail.com .</a> </p> 
         </section>
     </main>
     <footer>
@@ -97,5 +92,9 @@
             </section>
         </section>
     </footer>
+    <script src="../js/wow.min.js"> </script>
+    <script>
+      new WOW().init();
+    </script>
 </body>
 </html>

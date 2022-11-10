@@ -9,20 +9,15 @@
     <title> TravelSafe / Iniciar Sesion</title>
     <link rel="shortcut icon" href="../elementos/logos/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 <body>
     <header>
-        <div class="ruta_de_exploración">
-            <ol class="ruta_de_exploración__ol">
-                <li class="ruta_de_exploración__li"><a class="ruta_de_exploración__a" href="../index.html"> Inicio > </a></li>
-                <li class="ruta_de_exploración__li"><a class="ruta_de_exploración__a" href="./user.html"> Usuario > </a></li>
-            </ol>
-        </div>
         <div class="grid">
             <div class="logo">
                 <a class="logo__a" href="../index.html"> <img class="logo__img" src="../elementos/logos/logo.png" alt=" logo de la empresa "></a>
             </div>
-            <div class="título">
+            <div class="título wow jackInTheBox">
                 <a class="título__a" href="../index.html"> <h1 class="título__h1"> Travel Safe </h1></a>
             </div>
             <div class="icono">
@@ -33,7 +28,7 @@
             <ul class="navar">
                 <li class="navar__li"><a class="navar__a" href="../index.html"> Inicio </a></li>
                 <li class="navar__li"><a class="navar__a" href="./viajes.html"> Viajes </a></li>
-                <li class="navar__li"><a class="navar__a" href="./galeria.html"> Galeria </a></li>
+                <li class="navar__li"><a class="navar__a" href="./colectivos.html"> Colectivos </a></li>
                 <li class="navar__li"><a class="navar__a" href="./contactos.html"> Contactos </a></li>
                 <li class="navar__li"><a class="navar__a" href="./acerca_de_nosotros.html"> Acerca de Nosotros</a></li>
             </ul>
@@ -41,58 +36,58 @@
     </header>
     <main>
         <section>
-            <form action="">
+            <form class="form_registro">
                 <fieldset>
-                    <legend> Iniciar Sesion </legend>
-                    <section>
-                        <label for="e-mail"> E-mial </label>
-                        <input type="email" name="" id="e-mail">
+                    <legend class="form_registro__título"> Iniciar Sesion </legend>
+                    <section class="form_registro__style">
+                        <label class="form_registro__indicador" for="e-mail"> E-mial </label>
+                        <input class="form_registro__selda" type="email" id="e-mail" placeholder="ingresar e-mail">
                     </section>
-                    <section>
-                        <label for="contraseña"> Contraseña </label>
-                        <input type="password" name="" id="contraseña">
+                    <section class="form_registro__style">
+                        <label class="form_registro__indicador" for="contraseña"> Contraseña </label>
+                        <input class="form_registro__selda" type="password" id="contraseña" placeholder="ingresar contraseña">
                     </section>
-                    <section>
-                        <input type="submit" value="iniciar sesión">
+                    <section class="form_registro__style">
+                        <input class="form_registro__btn" type="submit" value="iniciar sesión">
                     </section>
                 </fieldset>
             </form>
         </section>
         <section>
-            <form action="">
+            <form class="form_registro">
                 <fieldset>
-                    <legend> Crear una Cuenta </legend>
-                    <section>
-                        <label for="nombre"> Nombre/s </label>
-                        <input type="text" id="nombre">
+                    <legend class="form_registro__título"> Crear una Cuenta </legend>
+                    <section class="form_registro__style">
+                        <label class="form_registro__indicador" for="nombre"> Nombre/s </label>
+                        <input class="form_registro__selda" type="text" id="nombre" placeholder="nombre/s">
                     </section>
-                    <section>
-                        <label for="apellido"> Apellido/s </label>
-                        <input type="text" id="apellido">
+                    <section class="form_registro__style">
+                        <label class="form_registro__indicador" for="apellido"> Apellido/s </label>
+                        <input class="form_registro__selda" type="text" id="apellido" placeholder="apellido/s">
                     </section>
-                    <section>
-                        <label for="email"> E-mial </label>
-                        <input type="email" id="email">
+                    <section class="form_registro__style">
+                        <label class="form_registro__indicador" for="email"> E-mial </label>
+                        <input class="form_registro__selda" type="email" id="email" placeholder="e-mail">
                     </section>
-                    <section>
-                        <label for="contra"> Contraseña </label>
-                        <input type="password" name="" id="contra">
+                    <section class="form_registro__style">
+                        <label class="form_registro__indicador" for="contra"> Contraseña </label>
+                        <input class="form_registro__selda" type="password" name="" id="contra" placeholder="contraseña">
                     </section>
-                    <section>
-                        <label for="f_nacimiento"> Fecha de nacimiento </label>
-                        <input type="month" id="f_nacimiento">
+                    <section class="form_registro__style">
+                        <label class="form_registro__indicador" for="f_nacimiento"> Fecha de nacimiento </label>
+                        <input class="form_registro__selda" type="month" id="f_nacimiento">
                     </section>
-                    <section>
+                    <section class="form_registro__style">
                         <a href="../pages/terminos_condiciones.html">
-                            <p> Terminos </p>
+                            <p class="form_registro__p"> Terminos </p>
                         </a>
                     </section>
-                    <section>
-                        <label for="tyc"> Acepto los terminos y condiciones </label>
-                        <input type="checkbox" name="terminos" value="tyc" id="tyc">
+                    <section class="form_registro__style">
+                        <label class="form_registro__indicador" for="tyc"> Acepto los a terminos y condiciones </label>
+                        <input class="form_registro__selda" type="checkbox" name="terminos" value="tyc" id="tyc">
                     </section>
-                    <section>
-                        <input type="submit" value="crear cuenta">
+                    <section class="form_registro__style">
+                        <input class="form_registro__btn" type="submit" value="crear cuenta">
                     </section>
                 </fieldset>
             </form>
@@ -120,5 +115,9 @@
             </section>
         </section>
     </footer>
+    <script src="../js/wow.min.js"> </script>
+    <script>
+      new WOW().init();
+    </script>
 </body>
 </html>

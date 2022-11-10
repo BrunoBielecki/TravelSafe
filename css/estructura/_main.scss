@@ -3,12 +3,56 @@
 main{
     background-color: $color2;
 }
+
+.form_buscar_vuelo {
+    padding: 6%;
+
+    &__título{
+        font-size: 3rem;
+        text-align: center;
+        background-color: $color4;
+        border-radius: 5%;
+        color: $color1;
+        font-family: $titulo;
+    }
+
+    &__style{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2%;
+    }
+
+    &__indicador{
+        font-size: 1.5rem;
+    }
+
+    &__selda{
+        padding: 2%;
+        width: 30%;
+    }
+
+    &__btn{
+        border-radius: 30%;
+        padding: 1%;
+        background-color: $color4;
+        color: $color1;
+        font-size: 1.5rem;
+    }
+
+    &__p{
+        font-size: 1.5rem;
+    }
+}
+
 .ofertas {
 
     &__h2{
         font-size: 3rem;
         text-align: center;
         padding: 2%;
+        color: $color1;
+        font-family: $titulo;
     }
 
     &__galeria{
@@ -37,6 +81,7 @@ main{
         padding: 5%;
         font-size: 2rem;
         color: $color1;
+        font-family: $nav;
     }
 }
 
@@ -49,6 +94,7 @@ main{
         text-align: center;
         padding: 2%;
         color: $color1;
+        font-family: $titulo;
     }
 
     &__galeria{
@@ -78,15 +124,154 @@ main{
         padding: 5%;
         font-size: 2rem;
         color: $color1;
+        font-family: $nav;
     }
 }
+
+/*COLECTIVOS*/
+
+.colectivos{
+    padding: 2%;
+
+    &__h2{
+        text-align: center;
+        font-size: 3rem;
+        color: $color1;
+        padding: 2%;
+        font-family: $titulo;
+    }
+
+    &__style{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 2%;
+    }
+
+    &__card{
+        background-color: $color3;
+        border-radius: 5%;
+        border: solid 5px $color5;
+       
+    }
+
+    &__img{
+        width: $ancho;
+        height: $alto;
+        border-radius: 5%;
+    }
+
+    &__p{
+        text-align: center;
+        padding: 5%;
+        font-size: 2rem;
+        color: $color1;
+        font-family: $nav;
+    }
+}
+
+.parrafo{
+    margin: 7%;
+    border: solid 8px $color3;
+
+    &__h3{
+        font-size: 2rem;
+        color: $color1;
+        padding: 1%;
+        font-family: $titulo;
+    }
+
+    &__p{
+        padding: 2%;
+        text-align: center;
+        font-family: $nav;
+    }
+}
+
+.logo{
+    background-color: $color2;
+
+    &__img{
+        padding: 3%;
+        height: $alto;
+    }
+}
+
+/*CONTACTANOS*/
+
+.form_contactanos {
+    padding: 6%;
+
+    &__título{
+        font-size: 3rem;
+        text-align: center;
+        background-color: $color4;
+        border-radius: 5%;
+        color: $color1;
+        font-family: $titulo;
+    }
+
+    &__style{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2%;
+    }
+
+    &__indicador{
+        font-size: 1.5rem;
+    }
+
+    &__selda{
+        padding: 2%;
+        width: 30%;
+    }
+
+    &__botones{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__btn{
+        border-radius: 30%;
+        padding: 5%;
+        background-color: $color4;
+        color: $color1;
+        font-size: 1.5rem;
+    }
+
+
+    &__p{
+        font-size: 1.5rem;
+    }
+}
+
+.consulta{
+    padding: 1%;
+    
+    &__p{
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1%;
+        font-family: $nav;
+    }
+
+    &__a{
+        text-decoration: none;
+    }
+}
+
 
 /*ACERCA DE NOSOTROS*/
 
 .historia {
 
     &__h2{
-        @include size (4rem, center, 3%, $color1);
+        @include size (4rem, center, 3%, $color1,);
+        font-family: $titulo;
     } 
 
     &__p{
@@ -100,12 +285,56 @@ main{
     }
 }
 
+/*USUARIO*/
+
+.form_registro {
+    padding: 6%;
+
+    &__título{
+        font-size: 3rem;
+        text-align: center;
+        background-color: $color4;
+        border-radius: 5%;
+        color: $color1;
+        font-family: $titulo;
+    }
+
+    &__style{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2%;
+    }
+
+    &__indicador{
+        font-size: 1.5rem;
+    }
+
+    &__selda{
+        padding: 2%;
+        width: 30%;
+    }
+
+    &__btn{
+        border-radius: 30%;
+        padding: 1%;
+        background-color: $color4;
+        color: $color1;
+        font-size: 1.5rem;
+    }
+
+    &__p{
+        font-size: 1.5rem;
+    }
+}
+
 /*TERMINOS Y CONDICIONES*/
 
 .terminos_condiciones{
 
     &__h2{
         @include size (4rem, center, 3%, $color1);
+        font-family: $titulo;
     }
 
     &__p{

@@ -9,18 +9,6 @@ header {
   background-color: #012326;
 }
 
-.ruta_de_exploración__ol {
-  display: flex;
-  gap: 1%;
-}
-.ruta_de_exploración__li {
-  font-size: 1.5rem;
-  list-style-type: none;
-}
-.ruta_de_exploración__a {
-  text-decoration: none;
-}
-
 .grid {
   display: grid;
   grid-template-areas: "logo título icono";
@@ -38,8 +26,8 @@ header {
   text-decoration: none;
 }
 .logo__img {
-  width: 30%;
-  padding: 5%;
+  width: 60%;
+  padding: 2%;
 }
 
 .título {
@@ -54,12 +42,13 @@ header {
 .título__h1 {
   font-size: 6rem;
   color: #0396A6;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .icono {
   grid-area: icono;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
 }
 .icono__a {
@@ -87,6 +76,7 @@ header {
 .navar__a {
   text-decoration: none;
   color: #0396A6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*INICIO*/
@@ -94,10 +84,47 @@ main {
   background-color: #012326;
 }
 
+.form_buscar_vuelo {
+  padding: 6%;
+}
+.form_buscar_vuelo__título {
+  font-size: 3rem;
+  text-align: center;
+  background-color: #F27405;
+  border-radius: 5%;
+  color: #0396A6;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.form_buscar_vuelo__style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+}
+.form_buscar_vuelo__indicador {
+  font-size: 1.5rem;
+}
+.form_buscar_vuelo__selda {
+  padding: 2%;
+  width: 30%;
+}
+.form_buscar_vuelo__btn {
+  border-radius: 30%;
+  padding: 1%;
+  background-color: #F27405;
+  color: #0396A6;
+  font-size: 1.5rem;
+}
+.form_buscar_vuelo__p {
+  font-size: 1.5rem;
+}
+
 .ofertas__h2 {
   font-size: 3rem;
   text-align: center;
   padding: 2%;
+  color: #0396A6;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .ofertas__galeria {
   display: flex;
@@ -122,6 +149,7 @@ main {
   padding: 5%;
   font-size: 2rem;
   color: #0396A6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*VIAJES*/
@@ -130,6 +158,7 @@ main {
   text-align: center;
   padding: 2%;
   color: #0396A6;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .destino__galeria {
   display: flex;
@@ -155,6 +184,122 @@ main {
   padding: 5%;
   font-size: 2rem;
   color: #0396A6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*COLECTIVOS*/
+.colectivos {
+  padding: 2%;
+}
+.colectivos__h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: #0396A6;
+  padding: 2%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.colectivos__style {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2%;
+}
+.colectivos__card {
+  background-color: #F29F05;
+  border-radius: 5%;
+  border: solid 5px #BF4904;
+}
+.colectivos__img {
+  width: 300px;
+  height: 200px;
+  border-radius: 5%;
+}
+.colectivos__p {
+  text-align: center;
+  padding: 5%;
+  font-size: 2rem;
+  color: #0396A6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parrafo {
+  margin: 7%;
+  border: solid 8px #F29F05;
+}
+.parrafo__h3 {
+  font-size: 2rem;
+  color: #0396A6;
+  padding: 1%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.parrafo__p {
+  padding: 2%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+  background-color: #012326;
+}
+.logo__img {
+  padding: 3%;
+  height: 200px;
+}
+
+/*CONTACTANOS*/
+.form_contactanos {
+  padding: 6%;
+}
+.form_contactanos__título {
+  font-size: 3rem;
+  text-align: center;
+  background-color: #F27405;
+  border-radius: 5%;
+  color: #0396A6;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.form_contactanos__style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+}
+.form_contactanos__indicador {
+  font-size: 1.5rem;
+}
+.form_contactanos__selda {
+  padding: 2%;
+  width: 30%;
+}
+.form_contactanos__botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form_contactanos__btn {
+  border-radius: 30%;
+  padding: 5%;
+  background-color: #F27405;
+  color: #0396A6;
+  font-size: 1.5rem;
+}
+.form_contactanos__p {
+  font-size: 1.5rem;
+}
+
+.consulta {
+  padding: 1%;
+}
+.consulta__p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.consulta__a {
+  text-decoration: none;
 }
 
 /*ACERCA DE NOSOTROS*/
@@ -163,6 +308,7 @@ main {
   text-align: center;
   padding: 3%;
   color: #0396A6;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .historia__p {
   color: #0396A6;
@@ -173,12 +319,49 @@ main {
   border: solid 5px #F29F05;
 }
 
+/*USUARIO*/
+.form_registro {
+  padding: 6%;
+}
+.form_registro__título {
+  font-size: 3rem;
+  text-align: center;
+  background-color: #F27405;
+  border-radius: 5%;
+  color: #0396A6;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.form_registro__style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+}
+.form_registro__indicador {
+  font-size: 1.5rem;
+}
+.form_registro__selda {
+  padding: 2%;
+  width: 30%;
+}
+.form_registro__btn {
+  border-radius: 30%;
+  padding: 1%;
+  background-color: #F27405;
+  color: #0396A6;
+  font-size: 1.5rem;
+}
+.form_registro__p {
+  font-size: 1.5rem;
+}
+
 /*TERMINOS Y CONDICIONES*/
 .terminos_condiciones__h2 {
   font-size: 4rem;
   text-align: center;
   padding: 3%;
   color: #0396A6;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .terminos_condiciones__p {
   color: #0396A6;
@@ -214,14 +397,15 @@ footer {
 .título__redes {
   font-size: 2rem;
   color: #0396A6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .redes__a {
   text-decoration: none;
 }
 .redes__img {
-  width: 11%;
-  padding: 1%;
+  width: 15%;
+  padding: 3%;
 }
 
 .grid__derechos {
@@ -229,6 +413,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .derechos__p {
@@ -251,10 +436,12 @@ footer {
   font-size: 2rem;
   text-align: end;
   padding-right: 12%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .local__p {
   font-size: 1.5rem;
   text-align: center;
   color: #0396A6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }/*# sourceMappingURL=style.css.map */
