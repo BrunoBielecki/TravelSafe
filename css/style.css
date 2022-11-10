@@ -1,4 +1,526 @@
 @charset "UTF-8";
+@media screen and (max-width: 400px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 2%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #0396A6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #0396A6;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #0396A6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding: 2%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #0396A6;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #0396A6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*FOOTER*/
+  .grid__footer {
+    display: grid;
+    grid-template-areas: "redes" "copy" "local";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .grid__redes {
+    grid-area: redes;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .grid__derechos {
+    grid-area: copy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .grid__local {
+    grid-area: local;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 3%;
+  }
+}
+@media screen and (max-width: 600px) {
+  /*HEADER*/
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #0396A6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #0396A6;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #0396A6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding: 2%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #0396A6;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #0396A6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .logo {
+    background-color: #012326;
+  }
+  .logo__img {
+    padding: 3%;
+    height: 200px;
+    width: 100%;
+  }
+  /*FOOTER*/
+}
+@media screen and (max-width: 775px) {
+  /*HEADER*/
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #0396A6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #0396A6;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #0396A6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding: 2%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #0396A6;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #0396A6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .logo {
+    background-color: #012326;
+  }
+  .logo__img {
+    padding: 3%;
+    height: 200px;
+    width: 100%;
+  }
+  /*FOOTER*/
+}
+@media screen and (max-width: 966px) {
+  /*HEADER*/
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #0396A6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #0396A6;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #0396A6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding: 2%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #0396A6;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #0396A6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .logo {
+    background-color: #012326;
+  }
+  .logo__img {
+    padding: 3%;
+    height: 200px;
+    width: 100%;
+  }
+  /*FOOTER*/
+}
+@media screen and (max-width: 1075px) {
+  /*MAIN INICIO*/
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #0396A6;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #0396A6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding: 2%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #0396A6;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #0396A6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .logo {
+    background-color: #012326;
+  }
+  .logo__img {
+    padding: 3%;
+    height: 200px;
+    width: 100%;
+  }
+  /*FOOTER*/
+}
 * {
   margin: 0;
   padding: 0;
@@ -11,22 +533,9 @@ header {
 
 .grid {
   display: grid;
-  grid-template-areas: "logo título icono";
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "título icono";
+  grid-template-columns: 35fr 1fr;
   grid-template-rows: 1fr;
-}
-
-.logo {
-  grid-area: logo;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.logo__a {
-  text-decoration: none;
-}
-.logo__img {
-  width: 60%;
   padding: 2%;
 }
 
@@ -48,15 +557,14 @@ header {
 .icono {
   grid-area: icono;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
 }
 .icono__a {
   text-decoration: none;
 }
 .icono__img {
-  padding-left: 65%;
-  width: 90%;
+  width: 100%;
 }
 
 .navar {

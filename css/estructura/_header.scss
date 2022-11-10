@@ -4,26 +4,12 @@ header{
 
 .grid{
     display: grid;
-    grid-template-areas: "logo título icono";
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "título icono";
+    grid-template-columns: 35fr 1fr;
     grid-template-rows: 1fr;
+    padding: 2%;
 }
 
-.logo{
-    grid-area: logo;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &__a{
-        text-decoration: none;
-    }
-
-    &__img{
-        width: 60%;
-        padding: 2%;
-    }
-}
 
 .título{
     grid-area: título;
@@ -35,8 +21,8 @@ header{
         text-decoration: none;
     }
 
-    &__h1{
-        font-size: 6rem;
+    &__h1{ 
+        font-size:6rem;
         color: $color1;
         font-family: $titulo;
     }
@@ -45,7 +31,7 @@ header{
 .icono{
     grid-area: icono;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
 
     &__a{
@@ -53,8 +39,7 @@ header{
     }
 
     &__img{
-        padding-left: 65%;
-        width: 90%;
+        width: 100%;
     }
 }
 
