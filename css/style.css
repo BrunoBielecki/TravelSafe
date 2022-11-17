@@ -111,7 +111,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 3%;
   }
   .grid__derechos {
@@ -650,7 +650,7 @@ main {
 .ofertas__card--img {
   border-radius: 5%;
   width: 300px;
-  height: 200px;
+  height: 300px;
 }
 .ofertas__card--p {
   text-align: center;
