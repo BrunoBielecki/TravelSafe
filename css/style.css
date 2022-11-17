@@ -25,7 +25,7 @@
   }
   .navar__a {
     text-decoration: none;
-    color: #0396A6;
+    color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /*MAIN INICIO*/
@@ -33,7 +33,7 @@
     font-size: 3rem;
     text-align: center;
     padding: 2%;
-    color: #0396A6;
+    color: #fafafa;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .ofertas__galeria {
@@ -59,7 +59,7 @@
     text-align: center;
     padding: 5%;
     font-size: 2rem;
-    color: #0396A6;
+    color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /*MAIN COLECTIVOS*/
@@ -69,7 +69,7 @@
   .colectivos__h2 {
     text-align: center;
     font-size: 3rem;
-    color: #0396A6;
+    color: #fafafa;
     padding: 2%;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
@@ -96,18 +96,18 @@
     text-align: center;
     padding: 5%;
     font-size: 2rem;
-    color: #0396A6;
+    color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /*FOOTER*/
   .grid__footer {
     display: grid;
-    grid-template-areas: "redes" "copy" "local";
+    grid-template-areas: "redess" "copia" "tienda";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
   .grid__redes {
-    grid-area: redes;
+    grid-area: redess;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -115,14 +115,14 @@
     padding: 3%;
   }
   .grid__derechos {
-    grid-area: copy;
+    grid-area: copia;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   .grid__local {
-    grid-area: local;
+    grid-area: tienda;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,7 +149,7 @@
   }
   .navar__a {
     text-decoration: none;
-    color: #0396A6;
+    color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /*MAIN INICIO*/
@@ -157,7 +157,7 @@
     font-size: 3rem;
     text-align: center;
     padding: 2%;
-    color: #0396A6;
+    color: #fafafa;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .ofertas__galeria {
@@ -183,7 +183,7 @@
     text-align: center;
     padding: 5%;
     font-size: 2rem;
-    color: #0396A6;
+    color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /*MAIN COLECTIVOS*/
@@ -193,7 +193,7 @@
   .colectivos__h2 {
     text-align: center;
     font-size: 3rem;
-    color: #0396A6;
+    color: #fafafa;
     padding: 2%;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
@@ -220,11 +220,11 @@
     text-align: center;
     padding: 5%;
     font-size: 2rem;
-    color: #0396A6;
+    color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   .logo {
-    background-color: #012326;
+    background-color: #034046;
   }
   .logo__img {
     padding: 3%;
@@ -252,7 +252,7 @@
   }
   .navar__a {
     text-decoration: none;
-    color: #0396A6;
+    color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /*MAIN INICIO*/
@@ -260,7 +260,7 @@
     font-size: 3rem;
     text-align: center;
     padding: 2%;
-    color: #0396A6;
+    color: #fafafa;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .ofertas__galeria {
@@ -286,7 +286,7 @@
     text-align: center;
     padding: 5%;
     font-size: 2rem;
-    color: #0396A6;
+    color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /*MAIN COLECTIVOS*/
@@ -296,7 +296,7 @@
   .colectivos__h2 {
     text-align: center;
     font-size: 3rem;
-    color: #0396A6;
+    color: #fafafa;
     padding: 2%;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
@@ -323,11 +323,11 @@
     text-align: center;
     padding: 5%;
     font-size: 2rem;
-    color: #0396A6;
+    color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   .logo {
-    background-color: #012326;
+    background-color: #034046;
   }
   .logo__img {
     padding: 3%;
@@ -355,7 +355,7 @@
   }
   .navar__a {
     text-decoration: none;
-    color: #0396A6;
+    color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /*MAIN INICIO*/
@@ -363,7 +363,7 @@
     font-size: 3rem;
     text-align: center;
     padding: 2%;
-    color: #0396A6;
+    color: #fafafa;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .ofertas__galeria {
@@ -389,7 +389,7 @@
     text-align: center;
     padding: 5%;
     font-size: 2rem;
-    color: #0396A6;
+    color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /*MAIN COLECTIVOS*/
@@ -399,7 +399,7 @@
   .colectivos__h2 {
     text-align: center;
     font-size: 3rem;
-    color: #0396A6;
+    color: #fafafa;
     padding: 2%;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
@@ -426,11 +426,11 @@
     text-align: center;
     padding: 5%;
     font-size: 2rem;
-    color: #0396A6;
+    color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   .logo {
-    background-color: #012326;
+    background-color: #034046;
   }
   .logo__img {
     padding: 3%;
@@ -445,7 +445,7 @@
     font-size: 3rem;
     text-align: center;
     padding: 2%;
-    color: #0396A6;
+    color: #fafafa;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .ofertas__galeria {
@@ -471,7 +471,7 @@
     text-align: center;
     padding: 5%;
     font-size: 2rem;
-    color: #0396A6;
+    color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /*MAIN COLECTIVOS*/
@@ -481,7 +481,7 @@
   .colectivos__h2 {
     text-align: center;
     font-size: 3rem;
-    color: #0396A6;
+    color: #fafafa;
     padding: 2%;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
@@ -508,11 +508,11 @@
     text-align: center;
     padding: 5%;
     font-size: 2rem;
-    color: #0396A6;
+    color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   .logo {
-    background-color: #012326;
+    background-color: #034046;
   }
   .logo__img {
     padding: 3%;
@@ -528,7 +528,7 @@
 }
 
 header {
-  background-color: #012326;
+  background-color: #034046;
 }
 
 .grid {
@@ -550,7 +550,7 @@ header {
 }
 .título__h1 {
   font-size: 6rem;
-  color: #0396A6;
+  color: #fafafa;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -583,13 +583,13 @@ header {
 }
 .navar__a {
   text-decoration: none;
-  color: #0396A6;
+  color: #fafafa;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*INICIO*/
 main {
-  background-color: #012326;
+  background-color: #034046;
 }
 
 .form_buscar_vuelo {
@@ -600,7 +600,7 @@ main {
   text-align: center;
   background-color: #F27405;
   border-radius: 5%;
-  color: #0396A6;
+  color: #fafafa;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .form_buscar_vuelo__style {
@@ -620,7 +620,7 @@ main {
   border-radius: 30%;
   padding: 1%;
   background-color: #F27405;
-  color: #0396A6;
+  color: #fafafa;
   font-size: 1.5rem;
 }
 .form_buscar_vuelo__p {
@@ -631,7 +631,7 @@ main {
   font-size: 3rem;
   text-align: center;
   padding: 2%;
-  color: #0396A6;
+  color: #fafafa;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .ofertas__galeria {
@@ -656,7 +656,7 @@ main {
   text-align: center;
   padding: 5%;
   font-size: 2rem;
-  color: #0396A6;
+  color: #fafafa;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -665,7 +665,7 @@ main {
   font-size: 3rem;
   text-align: center;
   padding: 2%;
-  color: #0396A6;
+  color: #fafafa;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .destino__galeria {
@@ -691,7 +691,7 @@ main {
   text-align: center;
   padding: 5%;
   font-size: 2rem;
-  color: #0396A6;
+  color: #fafafa;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -702,7 +702,7 @@ main {
 .colectivos__h2 {
   text-align: center;
   font-size: 3rem;
-  color: #0396A6;
+  color: #fafafa;
   padding: 2%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -728,7 +728,7 @@ main {
   text-align: center;
   padding: 5%;
   font-size: 2rem;
-  color: #0396A6;
+  color: #fafafa;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -738,7 +738,7 @@ main {
 }
 .parrafo__h3 {
   font-size: 2rem;
-  color: #0396A6;
+  color: #fafafa;
   padding: 1%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -749,7 +749,7 @@ main {
 }
 
 .logo {
-  background-color: #012326;
+  background-color: #034046;
 }
 .logo__img {
   padding: 3%;
@@ -765,7 +765,7 @@ main {
   text-align: center;
   background-color: #F27405;
   border-radius: 5%;
-  color: #0396A6;
+  color: #fafafa;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .form_contactanos__style {
@@ -790,7 +790,7 @@ main {
   border-radius: 30%;
   padding: 5%;
   background-color: #F27405;
-  color: #0396A6;
+  color: #fafafa;
   font-size: 1.5rem;
 }
 .form_contactanos__p {
@@ -815,11 +815,11 @@ main {
   font-size: 4rem;
   text-align: center;
   padding: 3%;
-  color: #0396A6;
+  color: #fafafa;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .historia__p {
-  color: #0396A6;
+  color: #fafafa;
   font-size: 1.5rem;
   line-height: 1.5;
   text-align: center;
@@ -836,7 +836,7 @@ main {
   text-align: center;
   background-color: #F27405;
   border-radius: 5%;
-  color: #0396A6;
+  color: #fafafa;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .form_registro__style {
@@ -856,7 +856,7 @@ main {
   border-radius: 30%;
   padding: 1%;
   background-color: #F27405;
-  color: #0396A6;
+  color: #fafafa;
   font-size: 1.5rem;
 }
 .form_registro__p {
@@ -868,11 +868,11 @@ main {
   font-size: 4rem;
   text-align: center;
   padding: 3%;
-  color: #0396A6;
+  color: #fafafa;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .terminos_condiciones__p {
-  color: #0396A6;
+  color: #fafafa;
   font-size: 1.5rem;
   line-height: 1.5;
   text-align: center;
@@ -883,18 +883,18 @@ main {
 
 /*INICIO*/
 footer {
-  background-color: #012326;
+  background-color: #034046;
 }
 
 .grid__footer {
   display: grid;
-  grid-template-areas: "redes copy local";
+  grid-template-areas: "redess copia tienda";
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
 }
 
 .grid__redes {
-  grid-area: redes;
+  grid-area: redess;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -904,7 +904,7 @@ footer {
 
 .título__redes {
   font-size: 2rem;
-  color: #0396A6;
+  color: #fafafa;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -917,7 +917,7 @@ footer {
 }
 
 .grid__derechos {
-  grid-area: copy;
+  grid-area: copia;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -926,11 +926,11 @@ footer {
 
 .derechos__p {
   font-size: 1.5rem;
-  color: #0396A6;
+  color: #fafafa;
 }
 
 .grid__local {
-  grid-area: local;
+  grid-area: tienda;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -940,7 +940,7 @@ footer {
 
 .título__local {
   width: 100%;
-  color: #0396A6;
+  color: #fafafa;
   font-size: 2rem;
   text-align: end;
   padding-right: 12%;
@@ -950,6 +950,6 @@ footer {
 .local__p {
   font-size: 1.5rem;
   text-align: center;
-  color: #0396A6;
+  color: #fafafa;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }/*# sourceMappingURL=style.css.map */

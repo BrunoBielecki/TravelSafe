@@ -124,15 +124,15 @@
 
     .grid__footer{
         display: grid;
-        grid-template-areas: "redes" 
-                             "copy" 
-                             "local";
+        grid-template-areas: "redess" 
+                             "copia" 
+                             "tienda";
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
 
     .grid__redes{
-        grid-area: redes;
+        grid-area: redess;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -141,7 +141,7 @@
     }
 
     .grid__derechos{
-        grid-area: copy;
+        grid-area: copia;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -149,7 +149,7 @@
     }
 
     .grid__local{
-        grid-area: local;
+        grid-area: tienda;
         display: flex;
         flex-direction: column;
         justify-content: center;
