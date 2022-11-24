@@ -1,321 +1,4 @@
-@media screen and (max-width:400px) {
-    /*HEADER*/
-
-    .grid{
-        display: grid;
-        grid-template-areas: "título icono";
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        padding: 2%;
-    }
-
-    .navar{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 3%;
-        padding: 2%;
-        
-        &__li{
-            font-size: 2rem;
-            list-style-type: none;
-        }
-    
-        &__li:hover{
-            background-color: $color4;
-        }
-    
-        &__a{
-            text-decoration: none;
-            color: $color1;
-            font-family:$nav;
-        }
-    }
-
-    /*MAIN INICIO*/
-
-    .ofertas {
-
-        &__h2{
-            font-size: 3rem;
-            text-align: center;
-            padding: 2%;
-            color: $color1;
-            font-family: $titulo;
-        }
-    
-        &__galeria{
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            padding: 2%;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-    
-        &__card{
-            background-color: $color3;
-            border-radius: 5%;   
-            border: solid 5px $color5;
-            margin: 2%;
-        }
-    
-        &__card--img{
-            border-radius: 5%;
-            width: ($ancho / 2) + 150px;
-            height: ($alto * 2) - 200px;
-        }
-    
-        &__card--p{
-            text-align: center;
-            padding: 5%;
-            font-size: 2rem;
-            color: $color1;
-            font-family: $nav;
-        }
-    }
-
-    /*MAIN COLECTIVOS*/
-    .colectivos{
-        padding: 2%;
-    
-        &__h2{
-            text-align: center;
-            font-size: 3rem;
-            color: $color1;
-            padding: 2%;
-            font-family: $titulo;
-        }
-    
-        &__style{
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
-            padding: 2%;
-        }
-    
-        &__card{
-            background-color: $color3;
-            border-radius: 5%;
-            border: solid 5px $color5;
-            margin: 2%;
-           
-        }
-    
-        &__img{
-            width: $ancho;
-            height: $alto;
-            border-radius: 5%;
-        }
-    
-        &__p{
-            text-align: center;
-            padding: 5%;
-            font-size: 2rem;
-            color: $color1;
-            font-family: $nav;
-        }
-    }
-
-    /*FOOTER*/
-
-    .grid__footer{
-        display: grid;
-        grid-template-areas: "redess" 
-                             "copia" 
-                             "tienda";
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-
-    .grid__redes{
-        grid-area: redess;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 3%;
-    }
-
-    .grid__derechos{
-        grid-area: copia;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: $nav;
-    }
-
-    .grid__local{
-        grid-area: tienda;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-end;
-        padding: 3%;
-    }
-}
-
-@media screen and (max-width:600px) {
-    /*HEADER*/
-
-    .navar{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 3%;
-        padding: 2%;
-        
-        &__li{
-            font-size: 2rem;
-            list-style-type: none;
-        }
-    
-        &__li:hover{
-            background-color: $color4;
-        }
-    
-        &__a{
-            text-decoration: none;
-            color: $color1;
-            font-family:$nav;
-        }
-    }
-
-    /*MAIN INICIO*/
-
-    .ofertas {
-
-        &__h2{
-            font-size: 3rem;
-            text-align: center;
-            padding: 2%;
-            color: $color1;
-            font-family: $titulo;
-        }
-    
-        &__galeria{
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            padding: 2%;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-    
-        &__card{
-            background-color: $color3;
-            border-radius: 5%;   
-            border: solid 5px $color5;
-            margin: 2%;
-        }
-    
-        &__card--img{
-            border-radius: 5%;
-            width: ($ancho / 2) + 150px;
-            height: ($alto * 2) - 200px;
-        }
-    
-        &__card--p{
-            text-align: center;
-            padding: 5%;
-            font-size: 2rem;
-            color: $color1;
-            font-family: $nav;
-        }
-    }
-
-    /*MAIN COLECTIVOS*/
-
-    .colectivos{
-        padding: 2%;
-    
-        &__h2{
-            text-align: center;
-            font-size: 3rem;
-            color: $color1;
-            padding: 2%;
-            font-family: $titulo;
-        }
-    
-        &__style{
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
-            padding: 2%;
-        }
-    
-        &__card{
-            background-color: $color3;
-            border-radius: 5%;
-            border: solid 5px $color5;
-            margin: 2%;
-           
-        }
-    
-        &__img{
-            width: $ancho;
-            height: $alto;
-            border-radius: 5%;
-        }
-    
-        &__p{
-            text-align: center;
-            padding: 5%;
-            font-size: 2rem;
-            color: $color1;
-            font-family: $nav;
-        }
-    }
-
-    .logo{
-        background-color: $color2;
-    
-        &__img{
-            padding: 3%;
-            height: $alto;
-            width: 100%;
-        }
-    }
-
-
-    /*FOOTER*/
-
-    
-}
-
-@media screen and (max-width:775px) {
-    /*HEADER*/
-
-    .navar{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 3%;
-        padding: 2%;
-        
-        &__li{
-            font-size: 2rem;
-            list-style-type: none;
-        }
-    
-        &__li:hover{
-            background-color: $color4;
-        }
-    
-        &__a{
-            text-decoration: none;
-            color: $color1;
-            font-family:$nav;
-        }
-    }
-
+@media screen and (max-width:1075px) {
     /*MAIN INICIO*/
 
     .ofertas {
@@ -547,7 +230,33 @@
     
 }
 
-@media screen and (max-width:1075px) {
+@media screen and (max-width:775px) {
+    /*HEADER*/
+
+    .navar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3%;
+        padding: 2%;
+        
+        &__li{
+            font-size: 2rem;
+            list-style-type: none;
+        }
+    
+        &__li:hover{
+            background-color: $color4;
+        }
+    
+        &__a{
+            text-decoration: none;
+            color: $color1;
+            font-family:$nav;
+        }
+    }
+
     /*MAIN INICIO*/
 
     .ofertas {
@@ -649,3 +358,366 @@
     /*FOOTER*/
     
 }
+
+@media screen and (max-width:600px) {
+    /*HEADER*/
+
+    .navar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3%;
+        padding: 2%;
+        
+        &__li{
+            font-size: 2rem;
+            list-style-type: none;
+        }
+    
+        &__li:hover{
+            background-color: $color4;
+        }
+    
+        &__a{
+            text-decoration: none;
+            color: $color1;
+            font-family:$nav;
+        }
+    }
+
+    /*MAIN INICIO*/
+
+    .ofertas {
+
+        &__h2{
+            font-size: 3rem;
+            text-align: center;
+            padding: 2%;
+            color: $color1;
+            font-family: $titulo;
+        }
+    
+        &__galeria{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            padding: 2%;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    
+        &__card{
+            background-color: $color3;
+            border-radius: 5%;   
+            border: solid 5px $color5;
+            margin: 2%;
+        }
+    
+        &__card--img{
+            border-radius: 5%;
+            width: ($ancho / 2) + 150px;
+            height: ($alto * 2) - 200px;
+        }
+    
+        &__card--p{
+            text-align: center;
+            padding: 5%;
+            font-size: 2rem;
+            color: $color1;
+            font-family: $nav;
+        }
+    }
+
+    /*MAIN COLECTIVOS*/
+
+    .colectivos{
+        padding: 2%;
+    
+        &__h2{
+            text-align: center;
+            font-size: 3rem;
+            color: $color1;
+            padding: 2%;
+            font-family: $titulo;
+        }
+    
+        &__style{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 2%;
+        }
+    
+        &__card{
+            background-color: $color3;
+            border-radius: 5%;
+            border: solid 5px $color5;
+            margin: 2%;
+           
+        }
+    
+        &__img{
+            width: $ancho;
+            height: $alto;
+            border-radius: 5%;
+        }
+    
+        &__p{
+            text-align: center;
+            padding: 5%;
+            font-size: 2rem;
+            color: $color1;
+            font-family: $nav;
+        }
+    }
+
+    .logo{
+        background-color: $color2;
+    
+        &__img{
+            padding: 3%;
+            height: $alto;
+            width: 100%;
+        }
+    }
+
+
+    /*FOOTER*/
+
+    
+}
+
+@media screen and (max-width:400px) {
+    /*HEADER*/
+
+    .grid{
+        display: grid;
+        grid-template-areas: "título icono";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding: 2%;
+    }
+
+    .título{
+        grid-area: título;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        &__a{
+            text-decoration: none;
+        }
+    
+        &__h1{ 
+            font-size:4rem;
+            padding: 10%;
+            color: $color1;
+            font-family: $titulo;
+        }
+    }
+    
+    .icono{
+        grid-area: icono;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    
+        &__a{
+            text-decoration: none;
+            text-align: end;
+        }
+    
+        &__img{
+            width: 25%;
+        }
+    }
+
+    .navar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3%;
+        padding: 2%;
+        
+        &__li{
+            font-size: 2rem;
+            list-style-type: none;
+        }
+    
+        &__li:hover{
+            background-color: $color4;
+        }
+    
+        &__a{
+            text-decoration: none;
+            color: $color1;
+            font-family:$nav;
+        }
+    }
+
+    /*MAIN INICIO*/
+
+    .ofertas {
+
+        &__h2{
+            font-size: 3rem;
+            text-align: center;
+            padding: 2%;
+            color: $color1;
+            font-family: $titulo;
+        }
+    
+        &__galeria{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            padding: 2%;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    
+        &__card{
+            background-color: $color3;
+            border-radius: 5%;   
+            border: solid 5px $color5;
+            margin: 2%;
+        }
+    
+        &__card--img{
+            border-radius: 5%;
+            width: ($ancho / 2) + 150px;
+            height: ($alto * 2) - 200px;
+        }
+    
+        &__card--p{
+            text-align: center;
+            padding: 5%;
+            font-size: 2rem;
+            color: $color1;
+            font-family: $nav;
+        }
+    }
+
+    /*MAIN COLECTIVOS*/
+    .colectivos{
+        padding: 2%;
+    
+        &__h2{
+            text-align: center;
+            font-size: 3rem;
+            color: $color1;
+            padding: 2%;
+            font-family: $titulo;
+        }
+    
+        &__style{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 2%;
+        }
+    
+        &__card{
+            background-color: $color3;
+            border-radius: 5%;
+            border: solid 5px $color5;
+            margin: 2%;
+           
+        }
+    
+        &__img{
+            width: $ancho;
+            height: $alto;
+            border-radius: 5%;
+        }
+    
+        &__p{
+            text-align: center;
+            padding: 5%;
+            font-size: 2rem;
+            color: $color1;
+            font-family: $nav;
+        }
+    }
+
+    /*FOOTER*/
+
+    .grid__footer{
+        display: grid;
+        grid-template-areas: "redess" 
+                             "copia" 
+                             "tienda";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .grid__redes{
+        grid-area: redess;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3%;
+    }
+
+    .redes{
+        padding-left: 17%;
+
+        &__a{
+            text-decoration: none;
+        }
+    
+        &__img{
+            width: 25%;
+            padding: 3%;
+        }
+    }
+
+    .grid__derechos{
+        grid-area: copia;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $nav;
+    }
+
+    .derechos__p{
+        font-size: 1rem;
+        color: $color1;
+    }
+
+    .grid__local{
+        grid-area: tienda;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3%;
+    }
+
+    .título__local{
+        width: 100%;
+        color: $color1;
+        font-size: 2rem;
+        text-align: center;
+       padding-left: 18%;
+        font-family: $nav;
+    }
+
+    .local{
+
+        &__p{
+            font-size: 1.5rem;
+            text-align: center;
+            color: $color1;
+            font-family: $nav;
+        }
+    }
+}
+
