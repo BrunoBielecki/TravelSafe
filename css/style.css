@@ -46,11 +46,13 @@ header {
 }
 
 .navar {
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 3%;
-  padding: 2%;
+  padding: 3%;
 }
 .navar__li {
   font-size: 2rem;
@@ -58,8 +60,44 @@ header {
 }
 .navar__li:hover {
   background-color: #F27405;
+  border-radius: 5%;
 }
 .navar__a {
+  text-decoration: none;
+  color: #fafafa;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.menu__img {
+  width: 10%;
+  position: relative;
+  left: 21rem;
+}
+.menu__style {
+  position: absolute;
+  display: none;
+  padding: 2%;
+  text-align: center;
+  width: 94%;
+}
+.menu__li {
+  font-size: 2rem;
+  list-style-type: none;
+}
+.menu__li:hover {
+  border-radius: 5%;
+}
+.menu li:hover .menu__style {
+  display: block;
+}
+.menu__a {
+  display: block;
   text-decoration: none;
   color: #fafafa;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -124,6 +162,10 @@ main {
   background-color: #F29F05;
   border-radius: 5%;
   border: solid 5px #BF4904;
+  margin: 2%;
+}
+.ofertas__card:hover {
+  transform: scale(1.15);
 }
 .ofertas__card--img {
   border-radius: 5%;
@@ -159,6 +201,9 @@ main {
   border-radius: 5%;
   border: solid 5px #BF4904;
   margin: 2%;
+}
+.destino__card:hover {
+  transform: scale(1.15);
 }
 .destino__card--img {
   border-radius: 5%;
@@ -196,6 +241,10 @@ main {
   background-color: #F29F05;
   border-radius: 5%;
   border: solid 5px #BF4904;
+  margin: 1%;
+}
+.colectivos__card:hover {
+  transform: scale(1.15);
 }
 .colectivos__img {
   width: 300px;
@@ -228,10 +277,11 @@ main {
 
 .logo {
   background-color: #034046;
+  display: flex;
+  flex-wrap: wrap;
 }
 .logo__img {
-  padding: 3%;
-  height: 200px;
+  width: 25%;
 }
 
 /*CONTACTANOS*/
@@ -580,6 +630,7 @@ footer {
     align-items: center;
     gap: 3%;
     padding: 2%;
+    display: none;
   }
   .navar__li {
     font-size: 2rem;
@@ -589,6 +640,40 @@ footer {
     background-color: #F27405;
   }
   .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 41.9rem;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    text-align: center;
+    background-color: #BF4904;
+    width: 55%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
     text-decoration: none;
     color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -740,6 +825,7 @@ footer {
     align-items: center;
     gap: 3%;
     padding: 2%;
+    display: none;
   }
   .navar__li {
     font-size: 2rem;
@@ -749,6 +835,40 @@ footer {
     background-color: #F27405;
   }
   .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 36rem;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    text-align: center;
+    background-color: #BF4904;
+    width: 69%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
     text-decoration: none;
     color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -913,6 +1033,7 @@ footer {
     align-items: center;
     gap: 3%;
     padding: 2%;
+    display: none;
   }
   .navar__li {
     font-size: 2rem;
@@ -922,6 +1043,40 @@ footer {
     background-color: #F27405;
   }
   .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 30.5rem;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    text-align: center;
+    background-color: #BF4904;
+    width: 85.5%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
     text-decoration: none;
     color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1107,6 +1262,7 @@ footer {
     align-items: center;
     gap: 3%;
     padding: 2%;
+    display: none;
   }
   .navar__li {
     font-size: 2rem;
@@ -1116,6 +1272,39 @@ footer {
     background-color: #F27405;
   }
   .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 21.7rem;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
     text-decoration: none;
     color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1190,6 +1379,41 @@ footer {
     font-size: 2rem;
     color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding: 6%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
   }
   /*FOOTER*/
   .grid__footer {

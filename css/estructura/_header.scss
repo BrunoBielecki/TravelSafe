@@ -44,11 +44,13 @@ header{
 }
 
 .navar{
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3%;
-    padding: 2%;
+    padding: 3%;
     
     &__li{
         font-size: 2rem;
@@ -57,9 +59,52 @@ header{
 
     &__li:hover{
         background-color: $color4;
+        border-radius: 5%;
+}
+
+    &__a{
+        text-decoration: none;
+        color: $color1;
+        font-family:$nav;
+    }
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+
+    &__img{
+        width: 10%;
+        position: relative;
+        left: 21rem;
+    }
+    
+    &__style{
+        position: absolute;
+        display: none;
+        padding: 2%;
+        text-align: center;
+        width: 94%;
+    }
+
+    &__li{
+        font-size: 2rem;
+        list-style-type: none;
+    }
+
+    &__li:hover{
+        border-radius: 5%;
+    }
+
+    & li:hover .menu__style{
+        display: block;
     }
 
     &__a{
+        display: block;
         text-decoration: none;
         color: $color1;
         font-family:$nav;

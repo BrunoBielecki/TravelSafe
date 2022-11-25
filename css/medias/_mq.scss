@@ -181,6 +181,7 @@
         align-items: center;
         gap: 3%;
         padding: 2%;
+        display: none;
         
         &__li{
             font-size: 2rem;
@@ -192,6 +193,48 @@
         }
     
         &__a{
+            text-decoration: none;
+            color: $color1;
+            font-family:$nav;
+        }
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+        &__img{
+            width: 10%;
+            position: relative;
+            left: 41.9rem;
+        }
+        
+        &__style{
+            position: absolute;
+            display: none;
+            padding: 2%;
+            text-align: center;
+            background-color: $color5;
+            width: 55%;
+        }
+    
+        &__li{
+            font-size: 2rem;
+            list-style-type: none;
+        }
+    
+        &__li:hover{
+            border-radius: 5%;
+        }
+    
+        & li:hover .menu__style{
+            display: block;
+        }
+    
+        &__a{
+            display: block;
             text-decoration: none;
             color: $color1;
             font-family:$nav;
@@ -380,6 +423,7 @@
         align-items: center;
         gap: 3%;
         padding: 2%;
+        display: none;
         
         &__li{
             font-size: 2rem;
@@ -396,6 +440,49 @@
             font-family:$nav;
         }
     }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+        &__img{
+            width: 10%;
+            position: relative;
+            left: 36rem;
+        }
+        
+        &__style{
+            position: absolute;
+            display: none;
+            padding: 2%;
+            text-align: center;
+            background-color: $color5;
+            width: 69%;
+        }
+    
+        &__li{
+            font-size: 2rem;
+            list-style-type: none;
+        }
+    
+        &__li:hover{
+            border-radius: 5%;
+        }
+    
+        & li:hover .menu__style{
+            display: block;
+        }
+    
+        &__a{
+            display: block;
+            text-decoration: none;
+            color: $color1;
+            font-family:$nav;
+        }
+    }
+    
 
     /*MAIN INICIO*/
 
@@ -597,6 +684,7 @@
         align-items: center;
         gap: 3%;
         padding: 2%;
+        display: none;
         
         &__li{
             font-size: 2rem;
@@ -608,6 +696,48 @@
         }
     
         &__a{
+            text-decoration: none;
+            color: $color1;
+            font-family:$nav;
+        }
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+        &__img{
+            width: 10%;
+            position: relative;
+            left: 30.5rem;
+        }
+        
+        &__style{
+            position: absolute;
+            display: none;
+            padding: 2%;
+            text-align: center;
+            background-color: $color5;
+            width: 85.5%;
+        }
+    
+        &__li{
+            font-size: 2rem;
+            list-style-type: none;
+        }
+    
+        &__li:hover{
+            border-radius: 5%;
+        }
+    
+        & li:hover .menu__style{
+            display: block;
+        }
+    
+        &__a{
+            display: block;
             text-decoration: none;
             color: $color1;
             font-family:$nav;
@@ -839,6 +969,7 @@
         align-items: center;
         gap: 3%;
         padding: 2%;
+        display: none;
         
         &__li{
             font-size: 2rem;
@@ -855,6 +986,48 @@
             font-family:$nav;
         }
     }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+        &__img{
+            width: 10%;
+            position: relative;
+            left: 21.7rem;
+        }
+        
+        &__style{
+            position: absolute;
+            display: none;
+            padding: 2%;
+            text-align: center;
+            width: 100%;
+        }
+    
+        &__li{
+            font-size: 2rem;
+            list-style-type: none;
+        }
+    
+        &__li:hover{
+            border-radius: 5%;
+        }
+    
+        & li:hover .menu__style{
+            display: block;
+        }
+    
+        &__a{
+            display: block;
+            text-decoration: none;
+            color: $color1;
+            font-family:$nav;
+        }
+    }
+    
 
     /*MAIN INICIO*/
 
@@ -940,6 +1113,49 @@
             font-size: 2rem;
             color: $color1;
             font-family: $nav;
+        }
+    }
+
+    /*MAIN USER*/
+
+    .form_registro {
+        padding: 6%;
+    
+        &__título{
+            font-size: 3rem;
+            text-align: center;
+            background-color: $color4;
+            border-radius: 5%;
+            color: $color1;
+            font-family: $titulo;
+        }
+    
+        &__style{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2%;
+        }
+    
+        &__indicador{
+            font-size: 1rem;
+        }
+    
+        &__selda{
+            padding: 2%;
+            width: 30%;
+        }
+    
+        &__btn{
+            border-radius: 30%;
+            padding: 1%;
+            background-color: $color4;
+            color: $color1;
+            font-size: 1.5rem;
+        }
+    
+        &__p{
+            font-size: 1.5rem;
         }
     }
 
