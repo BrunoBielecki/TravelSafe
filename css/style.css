@@ -586,6 +586,778 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 }
+@media screen and (max-width: 1029px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 2%;
+  }
+  .título {
+    grid-area: título;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .título__a {
+    text-decoration: none;
+  }
+  .título__h1 {
+    font-size: 5rem;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .icono {
+    grid-area: icono;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icono__a {
+    text-decoration: none;
+    text-align: end;
+  }
+  .icono__img {
+    width: 10%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+    display: none;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 43.5rem;
+  }
+  .menu__check {
+    display: none;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    text-align: center;
+    background-color: #BF4904;
+    width: 55%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 28%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 28%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding-top: 28%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fafafa;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .logo {
+    background-color: #034046;
+  }
+  .logo__img {
+    padding: 3%;
+    height: 200px;
+    width: 100%;
+  }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 28%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 28%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 28%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 28%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
+  /*FOOTER*/
+  .redes {
+    padding-left: 20%;
+  }
+  .redes__a {
+    text-decoration: none;
+  }
+  .redes__img {
+    width: 20%;
+    padding: 3%;
+  }
+  .derechos__p {
+    font-size: 1rem;
+    color: #fafafa;
+  }
+  .título__local {
+    width: 100%;
+    color: #fafafa;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 983px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 2%;
+  }
+  .título {
+    grid-area: título;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .título__a {
+    text-decoration: none;
+  }
+  .título__h1 {
+    font-size: 5rem;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .icono {
+    grid-area: icono;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icono__a {
+    text-decoration: none;
+    text-align: end;
+  }
+  .icono__img {
+    width: 10%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+    display: none;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 42.3rem;
+  }
+  .menu__check {
+    display: none;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    text-align: center;
+    background-color: #BF4904;
+    width: 55%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 28%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 28%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding-top: 28%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fafafa;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .logo {
+    background-color: #034046;
+  }
+  .logo__img {
+    padding: 3%;
+    height: 200px;
+    width: 100%;
+  }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 28%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 28%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 28%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 28%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
+  /*FOOTER*/
+  .redes {
+    padding-left: 20%;
+  }
+  .redes__a {
+    text-decoration: none;
+  }
+  .redes__img {
+    width: 20%;
+    padding: 3%;
+  }
+  .derechos__p {
+    font-size: 1rem;
+    color: #fafafa;
+  }
+  .título__local {
+    width: 100%;
+    color: #fafafa;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
 @media screen and (max-width: 966px) {
   /*HEADER*/
   .grid {
@@ -654,6 +1426,9 @@ footer {
     position: relative;
     left: 41.9rem;
   }
+  .menu__check {
+    display: none;
+  }
   .menu__style {
     position: absolute;
     display: none;
@@ -679,6 +1454,40 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 28%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
   .ofertas__h2 {
     font-size: 3rem;
     text-align: center;
@@ -712,9 +1521,49 @@ footer {
     color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 28%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
   /*MAIN COLECTIVOS*/
   .colectivos {
-    padding: 2%;
+    padding-top: 28%;
   }
   .colectivos__h2 {
     text-align: center;
@@ -757,6 +1606,120 @@ footer {
     height: 200px;
     width: 100%;
   }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 28%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 28%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 28%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 28%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
   /*FOOTER*/
   .redes {
     padding-left: 20%;
@@ -778,6 +1741,1586 @@ footer {
     font-size: 2rem;
     text-align: center;
     padding-left: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 932px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 2%;
+  }
+  .título {
+    grid-area: título;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .título__a {
+    text-decoration: none;
+  }
+  .título__h1 {
+    font-size: 5rem;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .icono {
+    grid-area: icono;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icono__a {
+    text-decoration: none;
+    text-align: end;
+  }
+  .icono__img {
+    width: 10%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+    display: none;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 41rem;
+  }
+  .menu__check {
+    display: none;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    text-align: center;
+    background-color: #BF4904;
+    width: 57%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 28%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 28%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding-top: 28%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fafafa;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .logo {
+    background-color: #034046;
+  }
+  .logo__img {
+    padding: 3%;
+    height: 200px;
+    width: 100%;
+  }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 28%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 28%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 28%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 28%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
+  /*FOOTER*/
+  .redes {
+    padding-left: 20%;
+  }
+  .redes__a {
+    text-decoration: none;
+  }
+  .redes__img {
+    width: 20%;
+    padding: 3%;
+  }
+  .derechos__p {
+    font-size: 1rem;
+    color: #fafafa;
+  }
+  .título__local {
+    width: 100%;
+    color: #fafafa;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 916px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 2%;
+  }
+  .título {
+    grid-area: título;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .título__a {
+    text-decoration: none;
+  }
+  .título__h1 {
+    font-size: 4rem;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .icono {
+    grid-area: icono;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .icono__a {
+    text-decoration: none;
+    text-align: end;
+  }
+  .icono__img {
+    width: 15%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+    display: none;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 39.7rem;
+  }
+  .menu__check {
+    display: none;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    text-align: center;
+    background-color: #BF4904;
+    width: 60%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 28%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 28%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding-top: 28%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fafafa;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .logo {
+    background-color: #034046;
+  }
+  .logo__img {
+    padding: 3%;
+    height: 200px;
+    width: 100%;
+  }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 28%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 28%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 28%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 28%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
+  /*FOOTER*/
+  .título__redes {
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  .redes {
+    padding-left: 25%;
+  }
+  .redes__a {
+    text-decoration: none;
+  }
+  .redes__img {
+    width: 20%;
+    padding: 3%;
+  }
+  .derechos__p {
+    font-size: 0.9rem;
+    color: #fafafa;
+  }
+  .título__local {
+    width: 100%;
+    color: #fafafa;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .local__p {
+    font-size: 1rem;
+    text-align: center;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 860px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 2%;
+  }
+  .título {
+    grid-area: título;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .título__a {
+    text-decoration: none;
+  }
+  .título__h1 {
+    font-size: 4rem;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .icono {
+    grid-area: icono;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .icono__a {
+    text-decoration: none;
+    text-align: end;
+  }
+  .icono__img {
+    width: 15%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+    display: none;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 38.1rem;
+  }
+  .menu__check {
+    display: none;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    text-align: center;
+    background-color: #BF4904;
+    width: 63%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 28%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 35%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding-top: 35%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fafafa;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .logo {
+    background-color: #034046;
+  }
+  .logo__img {
+    padding: 3%;
+    height: 200px;
+    width: 100%;
+  }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 35%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 35%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 35%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 35%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
+  /*FOOTER*/
+  .título__redes {
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  .redes {
+    padding-left: 25%;
+  }
+  .redes__a {
+    text-decoration: none;
+  }
+  .redes__img {
+    width: 20%;
+    padding: 3%;
+  }
+  .derechos__p {
+    font-size: 0.9rem;
+    color: #fafafa;
+  }
+  .título__local {
+    width: 100%;
+    color: #fafafa;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .local__p {
+    font-size: 1rem;
+    text-align: center;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 809px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 2%;
+  }
+  .título {
+    grid-area: título;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .título__a {
+    text-decoration: none;
+  }
+  .título__h1 {
+    font-size: 4rem;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .icono {
+    grid-area: icono;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .icono__a {
+    text-decoration: none;
+    text-align: end;
+  }
+  .icono__img {
+    width: 15%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+    display: none;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 36.7rem;
+  }
+  .menu__check {
+    display: none;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    text-align: center;
+    background-color: #BF4904;
+    width: 66%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 35%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 35%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding-top: 35%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fafafa;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .logo {
+    background-color: #034046;
+  }
+  .logo__img {
+    padding: 3%;
+    height: 200px;
+    width: 100%;
+  }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 35%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 35%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 35%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 35%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
+  /*FOOTER*/
+  .título__redes {
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  .redes {
+    padding-left: 25%;
+  }
+  .redes__a {
+    text-decoration: none;
+  }
+  .redes__img {
+    width: 20%;
+    padding: 3%;
+  }
+  .derechos__p {
+    font-size: 0.9rem;
+    color: #fafafa;
+  }
+  .título__local {
+    width: 100%;
+    color: #fafafa;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .local__p {
+    font-size: 1rem;
+    text-align: center;
+    color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 }
@@ -847,7 +3390,10 @@ footer {
   .menu__img {
     width: 10%;
     position: relative;
-    left: 36rem;
+    left: 35.9rem;
+  }
+  .menu__check {
+    display: none;
   }
   .menu__style {
     position: absolute;
@@ -874,6 +3420,40 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 35%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
   .ofertas__h2 {
     font-size: 3rem;
     text-align: center;
@@ -907,9 +3487,49 @@ footer {
     color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 35%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
   /*MAIN COLECTIVOS*/
   .colectivos {
-    padding: 2%;
+    padding-top: 35%;
   }
   .colectivos__h2 {
     text-align: center;
@@ -952,6 +3572,120 @@ footer {
     height: 200px;
     width: 100%;
   }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 35%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 35%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 35%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 35%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
   /*FOOTER*/
   .título__redes {
     font-size: 2rem;
@@ -983,6 +3717,1272 @@ footer {
   }
   .local__p {
     font-size: 1rem;
+    text-align: center;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 742px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 2%;
+  }
+  .título {
+    grid-area: título;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+  }
+  .título__a {
+    text-decoration: none;
+  }
+  .título__h1 {
+    font-size: 5rem;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .icono {
+    grid-area: icono;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .icono__a {
+    text-decoration: none;
+    text-align: end;
+  }
+  .icono__img {
+    width: 20%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+    display: none;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 34.5rem;
+  }
+  .menu__check {
+    display: none;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    text-align: center;
+    background-color: #BF4904;
+    width: 71%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 40%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 40%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding-top: 40%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fafafa;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .logo {
+    background-color: #034046;
+  }
+  .logo__img {
+    padding: 3%;
+    height: 200px;
+    width: 100%;
+  }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 40%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 40%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 40%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 40%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
+  /*FOOTER*/
+  .grid__footer {
+    display: grid;
+    grid-template-areas: "copia copia" "redess tienda";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .grid__redes {
+    grid-area: redess;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .redes {
+    padding-left: 17%;
+  }
+  .redes__a {
+    text-decoration: none;
+  }
+  .redes__img {
+    width: 25%;
+    padding: 3%;
+  }
+  .grid__derechos {
+    grid-area: copia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .derechos__p {
+    font-size: 1rem;
+    color: #fafafa;
+  }
+  .grid__local {
+    grid-area: tienda;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .título__local {
+    width: 100%;
+    color: #fafafa;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 18%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .local__p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 694px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 2%;
+  }
+  .título {
+    grid-area: título;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+  }
+  .título__a {
+    text-decoration: none;
+  }
+  .título__h1 {
+    font-size: 5rem;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .icono {
+    grid-area: icono;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .icono__a {
+    text-decoration: none;
+    text-align: end;
+  }
+  .icono__img {
+    width: 20%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+    display: none;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 33rem;
+  }
+  .menu__check {
+    display: none;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    text-align: center;
+    background-color: #BF4904;
+    width: 75%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 40%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 40%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding-top: 40%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fafafa;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .logo {
+    background-color: #034046;
+  }
+  .logo__img {
+    padding: 3%;
+    height: 200px;
+    width: 100%;
+  }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 40%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 40%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 40%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 40%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
+  /*FOOTER*/
+  .grid__footer {
+    display: grid;
+    grid-template-areas: "copia copia" "redess tienda";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .grid__redes {
+    grid-area: redess;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .redes {
+    padding-left: 17%;
+  }
+  .redes__a {
+    text-decoration: none;
+  }
+  .redes__img {
+    width: 25%;
+    padding: 3%;
+  }
+  .grid__derechos {
+    grid-area: copia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .derechos__p {
+    font-size: 1rem;
+    color: #fafafa;
+  }
+  .grid__local {
+    grid-area: tienda;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .título__local {
+    width: 100%;
+    color: #fafafa;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 18%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .local__p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 646px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 2%;
+  }
+  .título {
+    grid-area: título;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+  }
+  .título__a {
+    text-decoration: none;
+  }
+  .título__h1 {
+    font-size: 5rem;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .icono {
+    grid-area: icono;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .icono__a {
+    text-decoration: none;
+    text-align: end;
+  }
+  .icono__img {
+    width: 20%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+    display: none;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 31.5rem;
+  }
+  .menu__check {
+    display: none;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    text-align: center;
+    background-color: #BF4904;
+    width: 80%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 40%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 40%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding-top: 40%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fafafa;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .logo {
+    background-color: #034046;
+  }
+  .logo__img {
+    padding: 3%;
+    height: 200px;
+    width: 100%;
+  }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 40%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 40%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 40%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 40%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
+  /*FOOTER*/
+  .grid__footer {
+    display: grid;
+    grid-template-areas: "copia copia" "redess tienda";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .grid__redes {
+    grid-area: redess;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .redes {
+    padding-left: 17%;
+  }
+  .redes__a {
+    text-decoration: none;
+  }
+  .redes__img {
+    width: 25%;
+    padding: 3%;
+  }
+  .grid__derechos {
+    grid-area: copia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .derechos__p {
+    font-size: 1rem;
+    color: #fafafa;
+  }
+  .grid__local {
+    grid-area: tienda;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .título__local {
+    width: 100%;
+    color: #fafafa;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 18%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .local__p {
+    font-size: 1.5rem;
     text-align: center;
     color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1057,6 +5057,9 @@ footer {
     position: relative;
     left: 30.5rem;
   }
+  .menu__check {
+    display: none;
+  }
   .menu__style {
     position: absolute;
     display: none;
@@ -1082,6 +5085,40 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 40%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
   .ofertas__h2 {
     font-size: 3rem;
     text-align: center;
@@ -1115,9 +5152,49 @@ footer {
     color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 40%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
   /*MAIN COLECTIVOS*/
   .colectivos {
-    padding: 2%;
+    padding-top: 40%;
   }
   .colectivos__h2 {
     text-align: center;
@@ -1160,12 +5237,3422 @@ footer {
     height: 200px;
     width: 100%;
   }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 40%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 40%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 40%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 40%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
   /*FOOTER*/
   .grid__footer {
     display: grid;
     grid-template-areas: "copia copia" "redess tienda";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+  }
+  .grid__redes {
+    grid-area: redess;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .redes {
+    padding-left: 17%;
+  }
+  .redes__a {
+    text-decoration: none;
+  }
+  .redes__img {
+    width: 25%;
+    padding: 3%;
+  }
+  .grid__derechos {
+    grid-area: copia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .derechos__p {
+    font-size: 1rem;
+    color: #fafafa;
+  }
+  .grid__local {
+    grid-area: tienda;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .título__local {
+    width: 100%;
+    color: #fafafa;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 18%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .local__p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 566px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .título {
+    grid-area: título;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+  }
+  .título__a {
+    text-decoration: none;
+  }
+  .título__h1 {
+    font-size: 4rem;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .icono {
+    grid-area: icono;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .icono__a {
+    text-decoration: none;
+    text-align: end;
+  }
+  .icono__img {
+    width: 25%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+    display: none;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__check {
+    display: none;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 29.2rem;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    background-color: #BF4904;
+    text-align: center;
+    width: 91%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 50%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 55%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding-top: 55%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fafafa;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 55%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 55%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 55%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 55%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
+  /*FOOTER*/
+  .grid__footer {
+    display: grid;
+    grid-template-areas: "redess" "copia" "tienda";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .grid__redes {
+    grid-area: redess;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .redes {
+    padding-left: 17%;
+  }
+  .redes__a {
+    text-decoration: none;
+  }
+  .redes__img {
+    width: 25%;
+    padding: 3%;
+  }
+  .grid__derechos {
+    grid-area: copia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .derechos__p {
+    font-size: 1rem;
+    color: #fafafa;
+  }
+  .grid__local {
+    grid-area: tienda;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .título__local {
+    width: 100%;
+    color: #fafafa;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 18%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .local__p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 518px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .título {
+    grid-area: título;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+  }
+  .título__a {
+    text-decoration: none;
+  }
+  .título__h1 {
+    font-size: 4rem;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .icono {
+    grid-area: icono;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .icono__a {
+    text-decoration: none;
+    text-align: end;
+  }
+  .icono__img {
+    width: 25%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+    display: none;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__check {
+    display: none;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 27.9rem;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    background-color: #BF4904;
+    text-align: center;
+    width: 98.7%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 50%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 55%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding-top: 55%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fafafa;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 55%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 55%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 55%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 55%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
+  /*FOOTER*/
+  .grid__footer {
+    display: grid;
+    grid-template-areas: "redess" "copia" "tienda";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .grid__redes {
+    grid-area: redess;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .redes {
+    padding-left: 17%;
+  }
+  .redes__a {
+    text-decoration: none;
+  }
+  .redes__img {
+    width: 25%;
+    padding: 3%;
+  }
+  .grid__derechos {
+    grid-area: copia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .derechos__p {
+    font-size: 1rem;
+    color: #fafafa;
+  }
+  .grid__local {
+    grid-area: tienda;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .título__local {
+    width: 100%;
+    color: #fafafa;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 18%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .local__p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 496px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .título {
+    grid-area: título;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+  }
+  .título__a {
+    text-decoration: none;
+  }
+  .título__h1 {
+    font-size: 4rem;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .icono {
+    grid-area: icono;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .icono__a {
+    text-decoration: none;
+    text-align: end;
+  }
+  .icono__img {
+    width: 25%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+    display: none;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__check {
+    display: none;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 26.9rem;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    background-color: #BF4904;
+    text-align: center;
+    width: 100%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 50%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 55%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding-top: 55%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fafafa;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 55%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 55%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 55%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 55%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
+  /*FOOTER*/
+  .grid__footer {
+    display: grid;
+    grid-template-areas: "redess" "copia" "tienda";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .grid__redes {
+    grid-area: redess;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .redes {
+    padding-left: 17%;
+  }
+  .redes__a {
+    text-decoration: none;
+  }
+  .redes__img {
+    width: 25%;
+    padding: 3%;
+  }
+  .grid__derechos {
+    grid-area: copia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .derechos__p {
+    font-size: 1rem;
+    color: #fafafa;
+  }
+  .grid__local {
+    grid-area: tienda;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .título__local {
+    width: 100%;
+    color: #fafafa;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 18%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .local__p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 478px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .título {
+    grid-area: título;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+  }
+  .título__a {
+    text-decoration: none;
+  }
+  .título__h1 {
+    font-size: 4rem;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .icono {
+    grid-area: icono;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .icono__a {
+    text-decoration: none;
+    text-align: end;
+  }
+  .icono__img {
+    width: 25%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+    display: none;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__check {
+    display: none;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 25.9rem;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    background-color: #BF4904;
+    text-align: center;
+    width: 100%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 50%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 55%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding-top: 55%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fafafa;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 55%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 55%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 55%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 55%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
+  /*FOOTER*/
+  .grid__footer {
+    display: grid;
+    grid-template-areas: "redess" "copia" "tienda";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .grid__redes {
+    grid-area: redess;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .redes {
+    padding-left: 17%;
+  }
+  .redes__a {
+    text-decoration: none;
+  }
+  .redes__img {
+    width: 25%;
+    padding: 3%;
+  }
+  .grid__derechos {
+    grid-area: copia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .derechos__p {
+    font-size: 1rem;
+    color: #fafafa;
+  }
+  .grid__local {
+    grid-area: tienda;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .título__local {
+    width: 100%;
+    color: #fafafa;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 18%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .local__p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 460px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .título {
+    grid-area: título;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+  }
+  .título__a {
+    text-decoration: none;
+  }
+  .título__h1 {
+    font-size: 4rem;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .icono {
+    grid-area: icono;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .icono__a {
+    text-decoration: none;
+    text-align: end;
+  }
+  .icono__img {
+    width: 25%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+    display: none;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__check {
+    display: none;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 25rem;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    background-color: #BF4904;
+    text-align: center;
+    width: 100%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 50%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 55%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding-top: 55%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fafafa;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 55%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 55%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 55%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 55%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
+  /*FOOTER*/
+  .grid__footer {
+    display: grid;
+    grid-template-areas: "redess" "copia" "tienda";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .grid__redes {
+    grid-area: redess;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .redes {
+    padding-left: 17%;
+  }
+  .redes__a {
+    text-decoration: none;
+  }
+  .redes__img {
+    width: 25%;
+    padding: 3%;
+  }
+  .grid__derechos {
+    grid-area: copia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .derechos__p {
+    font-size: 1rem;
+    color: #fafafa;
+  }
+  .grid__local {
+    grid-area: tienda;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .título__local {
+    width: 100%;
+    color: #fafafa;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 18%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .local__p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 444px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .título {
+    grid-area: título;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+  }
+  .título__a {
+    text-decoration: none;
+  }
+  .título__h1 {
+    font-size: 4rem;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .icono {
+    grid-area: icono;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .icono__a {
+    text-decoration: none;
+    text-align: end;
+  }
+  .icono__img {
+    width: 25%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+    display: none;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__check {
+    display: none;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 24rem;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    background-color: #BF4904;
+    text-align: center;
+    width: 100%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 50%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 55%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding-top: 55%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fafafa;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 55%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 55%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 55%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 55%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
+  /*FOOTER*/
+  .grid__footer {
+    display: grid;
+    grid-template-areas: "redess" "copia" "tienda";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .grid__redes {
+    grid-area: redess;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .redes {
+    padding-left: 17%;
+  }
+  .redes__a {
+    text-decoration: none;
+  }
+  .redes__img {
+    width: 25%;
+    padding: 3%;
+  }
+  .grid__derechos {
+    grid-area: copia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .derechos__p {
+    font-size: 1rem;
+    color: #fafafa;
+  }
+  .grid__local {
+    grid-area: tienda;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .título__local {
+    width: 100%;
+    color: #fafafa;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 18%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .local__p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 427px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .título {
+    grid-area: título;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+  }
+  .título__a {
+    text-decoration: none;
+  }
+  .título__h1 {
+    font-size: 4rem;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .icono {
+    grid-area: icono;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .icono__a {
+    text-decoration: none;
+    text-align: end;
+  }
+  .icono__img {
+    width: 25%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+    display: none;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__check {
+    display: none;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 23.2rem;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    background-color: #BF4904;
+    text-align: center;
+    width: 100%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 52%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 52%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding-top: 52%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fafafa;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 52%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 52%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 52%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 52%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
+  /*FOOTER*/
+  .grid__footer {
+    display: grid;
+    grid-template-areas: "redess" "copia" "tienda";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .grid__redes {
+    grid-area: redess;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .redes {
+    padding-left: 17%;
+  }
+  .redes__a {
+    text-decoration: none;
+  }
+  .redes__img {
+    width: 25%;
+    padding: 3%;
+  }
+  .grid__derechos {
+    grid-area: copia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .derechos__p {
+    font-size: 1rem;
+    color: #fafafa;
+  }
+  .grid__local {
+    grid-area: tienda;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .título__local {
+    width: 100%;
+    color: #fafafa;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 18%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .local__p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 412px) {
+  /*HEADER*/
+  .grid {
+    display: grid;
+    grid-template-areas: "título icono";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .título {
+    grid-area: título;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+  }
+  .título__a {
+    text-decoration: none;
+  }
+  .título__h1 {
+    font-size: 4rem;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .icono {
+    grid-area: icono;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .icono__a {
+    text-decoration: none;
+    text-align: end;
+  }
+  .icono__img {
+    width: 25%;
+  }
+  .navar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+    display: none;
+  }
+  .navar__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .navar__li:hover {
+    background-color: #F27405;
+  }
+  .navar__a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__check {
+    display: none;
+  }
+  .menu__img {
+    width: 10%;
+    position: relative;
+    left: 22.3rem;
+  }
+  .menu__style {
+    position: absolute;
+    display: none;
+    padding: 2%;
+    background-color: #BF4904;
+    text-align: center;
+    width: 100%;
+  }
+  .menu__li {
+    font-size: 2rem;
+    list-style-type: none;
+  }
+  .menu__li:hover {
+    border-radius: 5%;
+  }
+  .menu li:hover .menu__style {
+    display: block;
+  }
+  .menu__a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 55%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
+  .ofertas__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ofertas__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ofertas__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .ofertas__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .ofertas__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 55%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN COLECTIVOS*/
+  .colectivos {
+    padding-top: 55%;
+  }
+  .colectivos__h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fafafa;
+    padding: 2%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .colectivos__style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .colectivos__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .colectivos__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
+  .colectivos__p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 55%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 55%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
+  /*MAIN USER*/
+  .form_registro {
+    padding-top: 55%;
+  }
+  .form_registro__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_registro__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_registro__indicador {
+    font-size: 1rem;
+  }
+  .form_registro__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_registro__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_registro__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 55%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
+  }
+  /*FOOTER*/
+  .grid__footer {
+    display: grid;
+    grid-template-areas: "redess" "copia" "tienda";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
   .grid__redes {
     grid-area: redess;
@@ -1281,6 +8768,9 @@ footer {
     justify-content: center;
     align-items: center;
   }
+  .menu__check {
+    display: none;
+  }
   .menu__img {
     width: 10%;
     position: relative;
@@ -1310,6 +8800,40 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /*MAIN INICIO*/
+  .form_buscar_vuelo {
+    padding-top: 55%;
+  }
+  .form_buscar_vuelo__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_buscar_vuelo__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_buscar_vuelo__indicador {
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_buscar_vuelo__btn {
+    border-radius: 30%;
+    padding: 1%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_buscar_vuelo__p {
+    font-size: 1.5rem;
+  }
   .ofertas__h2 {
     font-size: 3rem;
     text-align: center;
@@ -1343,9 +8867,49 @@ footer {
     color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  /*MAIN VIAJES*/
+  .destino {
+    padding-top: 55%;
+  }
+  .destino__h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .destino__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  .destino__card {
+    background-color: #F29F05;
+    border-radius: 5%;
+    border: solid 5px #BF4904;
+    margin: 2%;
+  }
+  .destino__card:hover {
+    transform: scale(1.15);
+  }
+  .destino__card--img {
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+  }
+  .destino__card--p {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
   /*MAIN COLECTIVOS*/
   .colectivos {
-    padding: 2%;
+    padding-top: 55%;
   }
   .colectivos__h2 {
     text-align: center;
@@ -1380,9 +8944,68 @@ footer {
     color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  /*MAIN CONTACTOS*/
+  .form_contactanos {
+    padding-top: 55%;
+  }
+  .form_contactanos__título {
+    font-size: 3rem;
+    text-align: center;
+    background-color: #F27405;
+    border-radius: 5%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .form_contactanos__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+  .form_contactanos__indicador {
+    font-size: 1.5rem;
+  }
+  .form_contactanos__selda {
+    padding: 2%;
+    width: 30%;
+  }
+  .form_contactanos__botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contactanos__btn {
+    border-radius: 30%;
+    padding: 5%;
+    background-color: #F27405;
+    color: #fafafa;
+    font-size: 1.5rem;
+  }
+  .form_contactanos__p {
+    font-size: 1.5rem;
+  }
+  /*MAIN ACERCA DE NOSOTROS*/
+  .historia {
+    padding-top: 55%;
+  }
+  .historia__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .historia__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+  }
   /*MAIN USER*/
   .form_registro {
-    padding: 6%;
+    padding-top: 55%;
   }
   .form_registro__título {
     font-size: 3rem;
@@ -1414,6 +9037,26 @@ footer {
   }
   .form_registro__p {
     font-size: 1.5rem;
+  }
+  /*MAIN TERMINOS Y CONDICIONES*/
+  .terminos_condiciones {
+    padding-top: 55%;
+  }
+  .terminos_condiciones__h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3%;
+    color: #fafafa;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .terminos_condiciones__p {
+    color: #fafafa;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 4%;
+    border: solid 5px #F29F05;
+    border-radius: 5%;
   }
   /*FOOTER*/
   .grid__footer {
